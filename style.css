@@ -13,19 +13,28 @@ body{   color: pink;
             width: 100px;
             height: auto;
         }
+.flex-container{ 
+    
+    display: flex;
+    flex-direction: row-reverse;
+             }
 
-.hebergement {color: blue;
+.hebergement {color: #0065FC;
               font-size: 20px;
-              text-align: right;}
+              text-align: right;
+            margin-left: 50px;}
 
 .activites{ color: grey;
             font-size: 20px;
-            text-align: right;}
+            text-align: right;
+            margin-left: 50px;}
 
-.sinscire { color: blue;
+.sinscire { color:#0065FC;
             font-size: 20px;
             font-weight: bold;
             text-align: right;
+            margin-left: 50px;
+            margin-right: 50px;
         }
 
 .titregras { font-weight: bold;
@@ -34,20 +43,52 @@ body{   color: pink;
 
 .soustitre { font-style: normal;
              color: grey;
-             font-size: 20px;}
+             font-size: 22px;
+             margin-top: -20px;
+            }
 
-.gpspoint{ float: left;
-           width: 20px;
-           height: auto;}
+.gpspoint{ 
+           width: 17px;
+           height: auto;
+           margin-left: 15px;
+           margin-right: 0px;
+           background-color: #F2F2F2;
+           
+           padding-top: 12px;
+                  padding-bottom: 9px;
+                  padding-right: 12px;
+                  padding-left: 12px;
+           border-bottom-left-radius: 10px;
+           border-top-left-radius: 10px;
+           vertical-align: middle;
+        
+        }
 
 .marseillefrance{ color: black;
                   font-size: 20px;
-                  font-weight: bold;}
+                  font-weight: bold;
+                  margin-left: -4px;
+                  margin-right: -4px;
+                  border: 1px solid;
+                  border-color: #F2F2F2;
+                  border-left: none;
+                  border-right: none;
+                  padding-top: 9px;
+                  padding-bottom: 9px;
+                  padding-right: 60px;
+                  padding-left: 10px;
+                  vertical-align: middle;
+                }
     
 .rechercher { color: white;
               font-size: 20px;
               font-weight: bold;
-            background-color: blue;}
+              background-color:#0065FC;
+              padding: 10px;
+              border-bottom-right-radius: 10px;
+              border-top-right-radius: 10px;
+              vertical-align: middle;
+    }
 
 .filtres{ color: black;
           font-size: 20px;
@@ -69,7 +110,15 @@ body{   color: pink;
 
 .info{ float: left; 
         width: 5px;
-        height: auto;}
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: lawngreen;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: solid;
+        border: 2px;
+        border-color: hotpink;}
 
 /* balise block 1 + générale */
 
