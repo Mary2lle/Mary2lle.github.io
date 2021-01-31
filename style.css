@@ -2,7 +2,7 @@ style.css
 
 font-face{
     font-family: "Raleway-VariableFont_wght.ttf";
-    src:url(Raleway-VariableFont_wght.ttf);}
+    src:url(Raleway/Raleway-VariableFont_wght.ttf);}
 
 body{   color: pink; 
         font-family: raleway;}
