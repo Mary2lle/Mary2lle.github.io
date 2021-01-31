@@ -2,210 +2,248 @@ style.css
 
 font-face{
     font-family: "Raleway-VariableFont_wght.ttf";
-    src:url(Users/Maryelle/Desktop/Openclassroom/P2_Leroy_Maryelle/Projet2-Reservia/Raleway-VariableFont_wght.ttf);
-}
+    src:url(Users/Maryelle/Desktop/Openclassroom/P2_Leroy_Maryelle/Projet2-Reservia/Raleway-VariableFont_wght.ttf);}
 
 body{   color: pink; 
         font-family: raleway;}
     
-.logo{
-            float: left;
-            width: 100px;
-            height: auto;
-        }
-.flex-container{ 
-    
-    display: flex;
-    flex-direction: row-reverse;
-             }
+.logo{  float: left;
+        width: 8em;
+        height: auto;}
+
+.flex-container{ display: flex;
+                 flex-direction: row-reverse;}
 
 .hebergement {color: #0065FC;
-              font-size: 20px;
+              font-size: 1em;
               text-align: right;
-            margin-left: 50px;}
+              margin-left: 5em;}
 
-.activites{ color: grey;
-            font-size: 20px;
+.activites{ color:black;
+            font-size: 1em;
             text-align: right;
-            margin-left: 50px;}
+            margin-left: 5em;}
 
 .sinscire { color:#0065FC;
-            font-size: 20px;
+            font-size: 1em;
             font-weight: bold;
             text-align: right;
-            margin-left: 50px;
-            margin-right: 50px;
-        }
+            margin-left: 5em;
+            margin-right: 5em;}
 
 .titregras { font-weight: bold;
             color: black;
-            font-size: 30px;}
+            font-size: 1.5em;}
 
 .soustitre { font-style: normal;
-             color: grey;
-             font-size: 22px;
-             margin-top: -20px;
-            }
+             color: black;
+             font-size: 1.1em;
+             margin-top: -0.7em;}
 
-.gpspoint{ 
-           width: 17px;
+.gpspoint{ width: 1em;
            height: auto;
-           margin-left: 15px;
-           margin-right: 0px;
            background-color: #F2F2F2;
-           
-           padding-top: 12px;
-                  padding-bottom: 9px;
-                  padding-right: 12px;
-                  padding-left: 12px;
-           border-bottom-left-radius: 10px;
-           border-top-left-radius: 10px;
-           vertical-align: middle;
-        
-        }
+           padding: 1em;
+           border-bottom-left-radius: 1em;
+           border-top-left-radius: 1em;
+           vertical-align: middle;}
 
 .marseillefrance{ color: black;
-                  font-size: 20px;
+                  font-size: 1em;
                   font-weight: bold;
-                  margin-left: -4px;
-                  margin-right: -4px;
-                  border: 1px solid;
+                  margin-left: -0.3em;
+                  margin-right: -0.3em;
+                  border: 0.1em solid;
                   border-color: #F2F2F2;
                   border-left: none;
                   border-right: none;
-                  padding-top: 9px;
-                  padding-bottom: 9px;
-                  padding-right: 60px;
-                  padding-left: 10px;
-                  vertical-align: middle;
-                }
+                  padding-top: 1em;
+                  padding-bottom: 1em;
+                  padding-right: 4em;
+                  padding-left: 1em;
+                  vertical-align: middle;}
     
 .rechercher { color: white;
-              font-size: 20px;
+              font-size: 1em;
               font-weight: bold;
               background-color:#0065FC;
-              padding: 10px;
-              border-bottom-right-radius: 10px;
-              border-top-right-radius: 10px;
-              vertical-align: middle;
-    }
+              padding: 1.1em;
+              border-bottom-right-radius: 1em;
+              border-top-right-radius: 1em;
+              vertical-align: middle;}
 
 .filtres{ color: black;
-          font-size: 20px;
-          font-weight: bold;}
+          font-size: 1em;
+          font-weight: bold;
+          margin-right: 1.5em;}
 
-.economique {color: darkgoldenrod;}
+.billet{ width: 1em;
+         height: auto;
+         background-color:#DEEBFF;
+         padding: 0.8em;
+         border-radius: 3em;
+         vertical-align: middle;}
 
-.billet{ width: 20px;
-         height: auto;}
+.child{ width: auto;
+        height: 1em;
+        background-color:#DEEBFF;
+        padding: 0.8em;
+        border-radius: 3em;
+        vertical-align: middle;}
 
-.child{ width: 15px;
-        height: auto;}
-
-.heart{ width: 15px;
-        height: auto;}
-
-.dog{ width: 20px;
-      height: auto;}
-
-.info{ float: left; 
-        width: 5px;
+.heart{ width: 1em;
         height: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-        background-color: lawngreen;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: solid;
-        border: 2px;
-        border-color: hotpink;}
+        background-color:#DEEBFF;
+        padding: 0.8em;
+        border-radius: 3em;
+        vertical-align: middle;}
+
+.dog{ width: 1em;
+      height: auto;
+      background-color:#DEEBFF;
+      padding: 0.8em;
+      border-radius: 3em;
+      vertical-align: middle;}
+
+.motlogo{color: black;
+         font-size: 1em;
+         font-weight: bold;
+         border: 0.1em solid;
+         border-left: none;
+         padding: 0.5em;
+         padding-left: 2em;
+         border-color: #F2F2F2;
+         border-top-right-radius: 2em;
+         border-bottom-right-radius: 2em;
+         margin-left: -1.5em;
+         margin-right: 2em;
+         vertical-align: middle;}
+
+.info{  width: auto;
+        height: 0.8em;
+        border: 0.05em solid;
+        border-color: #F2F2F2 ;
+        padding: 0.3em;
+        border-radius: 2em;
+        margin-right: 0.5em;
+        vertical-align: middle;}
+
+
+
+
+
 
 /* balise block 1 + générale */
 
-.premierblock{
-    border-radius: 20px;
-    background-color:#F2F2F2;
-    padding: 20px;
-    justify-items: left;}
+.block1{border-radius: 2em;
+        background-color:#F2F2F2;
+        padding: 2em; ;}
+
 
 .titreblock{color: black;
-             font-size: 30px;
+             font-size: 1.5em;
              font-weight: bold;}
         
-.photoblock1{width: 300px;
-             height: 200px;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;}
+.photoblock1{width: 18em;
+             height: 13em;
+             border-top-left-radius: 1em;
+             border-top-right-radius: 1em;}
 
 .alignement{ display: flex;
              justify-content: space-around;}
    
-.block1interieur{ border-radius: 20px;
+.block1interieur{ border-radius: 2em;
                   background-color: white;
-                  padding: 10px;}
+                  padding: 0.5em;
+                  vertical-align: middle;}
 
-.nomhebergement{color: black;
-                font-size: 20px;
-                font-weight: bold;}
+.nomhebergement{ color: black;
+                 font-size: 1.5em;
+                 font-weight: bold;}
 
-.nuitapartirde{ color: grey;
-                font-size: 15px;
+.nuitapartirde{ color: black;
+                font-size: 1em;
                 font-weight: lighter;}
 
-.notebleu{ width: 20px;
+.notebleu{ width: 1em;
            height: auto;}
 
-.notegris{ width: 20px;
+.notegris{ width: 1em;
            height: auto;}
+
+
+
 
 
 
 /* balise block 2*/
 
-.deuxiemeblock{
-    border-radius: 20px;
-    background-color:#F2F2F2;
-    padding: 20px;
-}
+.deuxiemeblock{border-radius: 2em;
+               background-color:#F2F2F2;
+               padding: 2em;}
 
-.pictotcroissance{ width: 20px;
-                   height: 20px;}
+.pictotcroissance{ width: 2em;
+                   height: 2em;
+                   float: right;}
 
-.photoblock2{width: 200px;
-            height: 200px;
-            border-top-left-radius: 20px;
-            border-bottom-left-radius: 20px;
-    }
+.photoblock2{width: 10em;
+             height: 10em;
+             border-top-left-radius: 2em;
+             border-bottom-left-radius: 2em;
+             float: left;
+             clear: both;
+             margin-right: 2em;
+             vertical-align: middle;
+            }
+
+.block1interieur2{ border-radius: 2em;
+                background-color: white;
+                padding: 0.5em;
+                padding-bottom: 1em;
+                vertical-align: middle;}
+
+
+
+
+
 
 /* balise block 3*/
 
 .photoblock3portrait{width: auto;
-                    height: 400px;
-                    background-color: rgb(226, 13, 13);
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;}
+                    height: 10em;
+                    background-color: white;
+                    padding-bottom: 2em;
+                    border-top-left-radius: 1em;
+                    border-top-right-radius: 1em;
+                    border-bottom-left-radius: 1em;
+                    border-bottom-right-radius: 1em;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;}
 
-.photoblock3paysage{width: 300px;
-                   height: auto;
-                   border-top-left-radius: 20px;
-                   border-top-right-radius: 20px;}
+
+.photoblock3paysage{width: 10em;
+                    height: auto;
+                    background-color: white;
+                    padding-bottom: 2em;
+                    border-top-left-radius: 1em;
+                    border-top-right-radius: 1em;
+                    border-bottom-left-radius: 1em;
+                    border-bottom-right-radius: 1em;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;}
+
 
 .nomhebergementblock3{color: black;
-                    font-size: 20px;
-                    font-weight: bold;
-                    border-bottom-left-radius: 20px;
-                    border-bottom-right-radius: 20px;
-                    box-shadow: 6px 6px 0px  #f2f2f2 ;
-                    size: 300px;}
+                      font-size: 1em;
+                      font-weight: bold;}
 
+
+
+
+
+
+            
 /* balise footer*/
 
-footer{
-    
-    background-color:#F2F2F2;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 60px;
-    padding-right: 300px;
-    padding-left: 60px;
-}
+footer{background-color:#F2F2F2;
+       display: flex;
+       justify-content: space-around;
+       padding: 3em;}
