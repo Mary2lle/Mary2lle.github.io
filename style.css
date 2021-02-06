@@ -1,23 +1,28 @@
 style.css
 
+
 font-face{
     font-family: "Raleway-VariableFont_wght.ttf";
     src:url(Raleway/Raleway-VariableFont_wght.ttf);}
 
 body{   color: pink; 
-        font-family: raleway;}
+        font-family: raleway;
+        margin-left: 2em;
+        margin-right: 2em;}
     
 .logo{  float: left;
         width: 8em;
         height: auto;}
 
-.flex-container{ display: flex;
-                 flex-direction: row-reverse;}
+.flex-container1{ display: flex;
+                  flex-direction: row-reverse;}
 
 .hebergement {color: #0065FC;
               font-size: 1em;
               text-align: right;
               margin-left: 5em;}
+
+
 
 .activites{ color:black;
             font-size: 1em;
@@ -48,6 +53,10 @@ body{   color: pink;
            border-top-left-radius: 1em;
            vertical-align: middle;}
 
+.loupe{ width: 0em;
+        height: auto;}
+
+
 .marseillefrance{ color: black;
                   font-size: 1em;
                   font-weight: bold;
@@ -62,6 +71,8 @@ body{   color: pink;
                   padding-right: 4em;
                   padding-left: 1em;
                   vertical-align: middle;}
+
+
     
 .rechercher { color: white;
               font-size: 1em;
@@ -78,31 +89,31 @@ body{   color: pink;
           margin-right: 1.5em;}
 
 .billet{ width: 1em;
-         height: auto;
+         height: 1em;
          background-color:#DEEBFF;
          padding: 0.8em;
-         border-radius: 3em;
+         border-radius: 50%;
          vertical-align: middle;}
 
-.child{ width: auto;
+.child{ width: 1em;
         height: 1em;
         background-color:#DEEBFF;
         padding: 0.8em;
-        border-radius: 3em;
+        border-radius: 50%;
         vertical-align: middle;}
 
 .heart{ width: 1em;
-        height: auto;
+        height: 1em;
         background-color:#DEEBFF;
         padding: 0.8em;
-        border-radius: 3em;
+        border-radius: 50%;
         vertical-align: middle;}
 
 .dog{ width: 1em;
-      height: auto;
+      height: 1em;
       background-color:#DEEBFF;
       padding: 0.8em;
-      border-radius: 3em;
+      border-radius: 50%;
       vertical-align: middle;}
 
 .motlogo{color: black;
@@ -110,44 +121,55 @@ body{   color: pink;
          font-weight: bold;
          border: 0.1em solid;
          border-left: none;
-         padding: 0.5em;
+         padding: 0.6em;
          padding-left: 2em;
          border-color: #F2F2F2;
          border-top-right-radius: 2em;
          border-bottom-right-radius: 2em;
-         margin-left: -1.5em;
+         margin-left: -1.3em;
          margin-right: 2em;
          vertical-align: middle;}
 
-.info{  width: auto;
-        height: 0.8em;
+a:hover {background-color: #F2F2F2;
+       }
+a:link { text-decoration:none;
+        } 
+a{ width: ;}
+
+.info{  width: 1em;
+        height: 1em;
         border: 0.05em solid;
         border-color: #F2F2F2 ;
         padding: 0.3em;
-        border-radius: 2em;
+        border-radius: 50%;
         margin-right: 0.5em;
         vertical-align: middle;}
 
 
+/*Block 1 à coté du block 2 */
 
-
+.flex-container {display: flex; 
+                 justify-content: space-around;} 
 
 
 /* balise block 1 + générale */
 
 .block1{border-radius: 2em;
         background-color:#F2F2F2;
-        padding: 2em; ;}
+        padding: 2em;
+        width: 60%;}
 
 
 .titreblock{color: black;
-             font-size: 1.5em;
-             font-weight: bold;}
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 0.5em;}
         
-.photoblock1{width: 18em;
-             height: 13em;
+.photoblock1{width: 14em;
+             height: 7em;
              border-top-left-radius: 1em;
-             border-top-right-radius: 1em;}
+             border-top-right-radius: 1em;
+             object-fit: cover;}
 
 .alignement{ display: flex;
              justify-content: space-around;}
@@ -158,11 +180,11 @@ body{   color: pink;
                   vertical-align: middle;}
 
 .nomhebergement{ color: black;
-                 font-size: 1.5em;
+                 font-size: 1em;
                  font-weight: bold;}
 
 .nuitapartirde{ color: black;
-                font-size: 1em;
+                font-size: 0.7em;
                 font-weight: lighter;}
 
 .notebleu{ width: 1em;
@@ -180,26 +202,26 @@ body{   color: pink;
 
 .deuxiemeblock{border-radius: 2em;
                background-color:#F2F2F2;
-               padding: 2em;}
+               padding: 2em;
+               width: 25%;}
 
 .pictotcroissance{ width: 2em;
                    height: 2em;
                    float: right;}
 
-.photoblock2{width: 10em;
-             height: 10em;
+.photoblock2{width: 7em;
+             height: 7em;
              border-top-left-radius: 2em;
              border-bottom-left-radius: 2em;
              float: left;
              clear: both;
              margin-right: 2em;
              vertical-align: middle;
-            }
+             object-fit: cover;}
 
 .block1interieur2{ border-radius: 2em;
                 background-color: white;
                 padding: 0.5em;
-                padding-bottom: 1em;
                 vertical-align: middle;}
 
 
@@ -209,31 +231,38 @@ body{   color: pink;
 
 /* balise block 3*/
 
-.photoblock3portrait{width: auto;
-                    height: 10em;
+.photoblock3portrait{width: 18em;
+                    height: 25em;
                     background-color: white;
                     padding-bottom: 2em;
-                    border-top-left-radius: 1em;
-                    border-top-right-radius: 1em;
-                    border-bottom-left-radius: 1em;
-                    border-bottom-right-radius: 1em;
-                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;}
+                    border-radius: 1em;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
+                    object-fit: cover;}
 
 
-.photoblock3paysage{width: 10em;
-                    height: auto;
+.photoblock3paysage{width: 18em;
+                    height: 10.5em;
                     background-color: white;
                     padding-bottom: 2em;
-                    border-top-left-radius: 1em;
-                    border-top-right-radius: 1em;
-                    border-bottom-left-radius: 1em;
-                    border-bottom-right-radius: 1em;
-                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;}
+                    border-radius: 1em;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
+                    object-fit: cover;}
 
 
 .nomhebergementblock3{color: black;
                       font-size: 1em;
-                      font-weight: bold;}
+                      font-weight: bold;
+                      margin-top: -1.5em;
+                      margin-left: 1em;
+                      }
+
+.flex-container2{display: flex;
+                 justify-content: space-around;}
+
+
+.flex-container3{display: flex;
+                 flex-direction: column;}
+
 
 
 
@@ -247,3 +276,119 @@ footer{background-color:#F2F2F2;
        display: flex;
        justify-content: space-around;
        padding: 3em;}
+
+.titreblockfooter{color: black;
+                  font-size: 1.5em;
+                  font-weight: bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive design pour mobile*/
+
+@media screen and (max-device-width : 480px)
+{}
+
+
+               
+.hebergement {text-align: right;
+            margin-left: 5em;}
+
+.activites{ text-align: right;
+          margin-left: 5em;}
+
+.sinscire {text-align: right;
+          margin-left: 5em;
+          margin-right: 5em;}
+
+
+.loupe{ width: 1em;
+        height: auto;
+        background-color:#0065FC;
+        padding: 1.1em;
+        border-radius: 1em;
+        margin-left: -2em;
+        vertical-align: middle;}
+
+.rechercher { display: none;}
+
+
+/*Block 1 à coté du block 2 */
+
+.flex-container {flex-direction: column;} 
+
+
+
+/* balise block 1 + générale */
+
+.block1{background:none;}
+
+.photoblock1{width: 27em;
+             height: 10.5em;}
+
+.alignement{ flex-direction: column;}
+   
+.block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
+                  width: 27em;}
+
+
+
+/* balise block 2*/
+
+.deuxiemeblock{border-radius: 0em;
+        background-color:#F2F2F2;
+        padding: 2em;
+        width: 27em;
+        margin-left: 0em;}
+
+
+.photoblock2{width: 7em;
+      height: 7em;
+      border-top-left-radius: 2em;
+      border-bottom-left-radius: 2em;
+      float: left;
+      clear: both;
+      margin-right: 2em;
+      vertical-align: middle;
+      object-fit: cover;}
+
+.block1interieur2{ border-radius: 2em;
+         background-color: white;
+         padding: 0.5em;
+         vertical-align: middle;}
+
+  
+/* balise block 3*/
+
+.photoblock3portrait{width: 27em;
+                     height: 10.5em;}
+
+.photoblock3paysage{width: 27em;
+                    height: 10.5em;}
+
+.flex-container2{flex-direction: column;}
+
+
+.flex-container3{flex-direction: column;} 
+
+
+
+/* balise footer*/
+footer{flex-direction: column;}
+ 
+
+
+/* Responsive design pour Tablette*/
+
+@media all and (max-device-width : 1024px){   }
