@@ -21,26 +21,34 @@ body{color: pink; /*Rose sert à voir les erreurs */
 
 /*---------------------->head */
 
-.logo{float: left;
+#logo{float: left;
       width: 8em;
       height: auto;}
 
-.hebergement{color: #0065FC;
+#hebergement{color: #0065FC;
              font-size: 1em;
              text-align: right;
-             margin-left: 5em;}
+             margin-left: 5em;
+             text-decoration: overline;}
 
-.activites{color:black;
+#activites{color:black;
            font-size: 1em;
            text-align: right;
            margin-left: 5em;}
 
-.sinscire{color:#0065FC;
+#sinscire{color:#0065FC;
           font-size: 1em;
           font-weight: bold;
           text-align: right;
           margin-left: 5em;
           margin-right: 3em;}
+
+.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #F2F2F2 ;
+                    padding-top: 0.6em;
+                    }
+
+                    .flex-containertest{display: flex;
+                        flex-direction: center;}
 
 .titregras{font-weight: bold;
            color: black;
@@ -62,7 +70,7 @@ body{color: pink; /*Rose sert à voir les erreurs */
 .blocrecherche{margin-top: 2em;
                margin-bottom: 2em;}
 
-.gpspoint{width: 1em;
+#gpspoint{width: 1em;
           height: auto;
           background-color: #F2F2F2;
           padding: 1em;
@@ -70,7 +78,7 @@ body{color: pink; /*Rose sert à voir les erreurs */
           border-top-left-radius: 1em;
           vertical-align: middle;}
        
-.marseillefrance{ color: black;
+#marseillefrance{ color: black;
                   font-size: 1em;
                   font-weight: bold;
                   margin-left: -0.3em;
@@ -82,33 +90,33 @@ body{color: pink; /*Rose sert à voir les erreurs */
                   padding: 1em;
                   vertical-align: middle;}
 
-.filtres{ color: black;
+#filtres{ color: black;
           font-size: 1em;
           font-weight: bold;
           margin-right: 1.5em;}
 
-.billet{ width: 1em;
+#billet{ width: 1em;
          height: 1em;
          background-color:#DEEBFF;
          padding: 0.8em;
          border-radius: 50%;
          vertical-align: middle;}
 
-.child{ width: 1em;
+#child{ width: 1em;
         height: 1em;
         background-color:#DEEBFF;
         padding: 0.8em;
         border-radius: 50%;
         vertical-align: middle;}
 
-.heart{ width: 1em;
+#heart{ width: 1em;
         height: 1em;
         background-color:#DEEBFF;
         padding: 0.8em;
         border-radius: 50%;
         vertical-align: middle;}
 
-.dog{ width: 1em;
+#dog{ width: 1em;
       height: 1em;
       background-color:#DEEBFF;
       padding: 0.8em;
@@ -122,20 +130,32 @@ body{color: pink; /*Rose sert à voir les erreurs */
          border-left: none;
          padding: 0.6em;
          padding-left: 2em;
+       
          border-color: #F2F2F2;
          border-top-right-radius: 2em;
          border-bottom-right-radius: 2em;
          margin-left: -1.3em;
-         margin-right: 2em;
+         margin-right: 1.5em;
          vertical-align: middle;}
 
-a:hover{background-color: #F2F2F2;}
+.actionfiltre:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
+                    border-radius: 2em;
+                    padding-top: 0.6em;
+                    padding-bottom: 0.8em;}
+
+
+
+a:hover{box-shadow: 0.2em 0.2em 0.2em#0065FC;
+        border-radius: 2em;
+        padding-top: 0.6em;
+        padding-bottom: 0.8em;}
+
 a:link{text-decoration:none;} 
 
-.blocinfo{margin-top: 2em;
+#blocinfo{margin-top: 2em;
           margin-bottom: 2em;}
 
-.info{  width: 1em;
+#info{  width: 1em;
         height: 1em;
         border: 0.05em solid;
         border-color: #F2F2F2 ;
@@ -170,6 +190,8 @@ a:link{text-decoration:none;}
 .notegris{ width: 1em;
            height: auto;}
 
+.actionblock1:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
 /*----------------------> fin balise balise block 1 */
 
 
@@ -177,7 +199,7 @@ a:link{text-decoration:none;}
 
 /*---------------------->balise block 2*/
 
-.pictotcroissance{ width: 2em;
+#pictotcroissance{ width: 2em;
                    height: 2em;
                    float: right;}
 
@@ -199,6 +221,8 @@ a:link{text-decoration:none;}
                       font-weight: bold;
                       margin-top: -2em;
                       margin-left: 1em;}
+
+.actionblock3:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
 
 /*----------------------> fin balise balise block 3 */
 
@@ -228,7 +252,7 @@ a:link{text-decoration:none;}
 
 /* Responsive design pour Desktop*/
 
-@media only screen and (min-width : 600 px) and (max-width : 1366px)
+@media only screen and (max-width : 1366px)
 {}
 
 /*---------------------->head */
@@ -239,7 +263,7 @@ a:link{text-decoration:none;}
 
 
 /*---------------------->section Recherche & filtre */
-.rechercher { color: white;
+#rechercher { color: white;
         font-size: 1em;
         font-weight: bold;
         background-color:#0065FC;
@@ -248,7 +272,7 @@ a:link{text-decoration:none;}
         border-top-right-radius: 1em;
         vertical-align: middle;}
 
-.loupe{ display: none;}
+#loupe{ display: none;}
 /*----------------------> fin balise section Recherche & filtre */
 
 
@@ -261,7 +285,7 @@ a:link{text-decoration:none;}
 
 
 /*---------------------->balise block 1 */
-.block1{border-radius: 2em;
+#block1{border-radius: 2em;
         background-color:#F2F2F2;
         padding: 2em;
         margin-bottom: 2em;
@@ -269,7 +293,8 @@ a:link{text-decoration:none;}
         margin-left: -1em;}
        
 .alignement{display: flex;
-            justify-content: space-around;}
+            justify-content: space-around;
+         }
              
 .photoblock1{width: 14em;
              height: 7em;
@@ -281,7 +306,7 @@ a:link{text-decoration:none;}
 
 
 /**---------------------->balise block 2 */
-.deuxiemeblock{border-radius: 2em;
+#deuxiemeblock{border-radius: 2em;
         background-color:#F2F2F2;
         padding: 2em;
         width: 25%;
@@ -336,9 +361,12 @@ a:link{text-decoration:none;}
 /*---------------------->  balise footer*/
 footer{background-color:#F2F2F2;
        margin-top: 3em;
+       margin-left: -2em;
+       margin-right: -2em;
        display: flex;
        justify-content: space-around;
-       padding: 3em;}
+       padding-top: 3em;
+       text-align: left;}
  /*----------------------> fin balise balise footer*/
 
 
@@ -354,7 +382,7 @@ footer{background-color:#F2F2F2;
 
 /* Responsive design pour mobile*/
 
-@media only screen and (min-width : 480 px) and (max-width : 600px)
+@media only screen and(max-width : 600px)
 {
           
 .hebergement {text-align: right;
