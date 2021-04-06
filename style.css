@@ -1,12 +1,10 @@
 style.css
 
-
 /*Balises pour tous les formats */
 
 font-face{font-family: "Raleway-VariableFont_wght.ttf";
           src:url(Raleway/Raleway-VariableFont_wght.ttf);}
-
-          
+       
     
 body{color: pink; /*Rose sert à voir les erreurs */
      font-family: raleway;
@@ -28,27 +26,25 @@ body{color: pink; /*Rose sert à voir les erreurs */
 #hebergement{color: #0065FC;
              font-size: 1em;
              text-align: right;
-             margin-left: 5em;
              text-decoration: overline;}
 
 #activites{color:black;
            font-size: 1em;
-           text-align: right;
-           margin-left: 5em;}
+           text-align: right;}
 
 #sinscire{color:#0065FC;
           font-size: 1em;
           font-weight: bold;
           text-align: right;
           margin-left: 5em;
-          margin-right: 3em;}
+          margin-right: 3em;
+          padding: 0.5em;}
 
-.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #F2F2F2 ;
-                    padding-top: 0.6em;
-                    }
+.actionheader{margin-left: 5em;
+              padding: 0.5em ;}
 
-                    .flex-containertest{display: flex;
-                        flex-direction: center;}
+.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
+                    border-radius: 1em;}
 
 .titregras{font-weight: bold;
            color: black;
@@ -130,25 +126,18 @@ body{color: pink; /*Rose sert à voir les erreurs */
          border-left: none;
          padding: 0.6em;
          padding-left: 2em;
-       
          border-color: #F2F2F2;
          border-top-right-radius: 2em;
          border-bottom-right-radius: 2em;
          margin-left: -1.3em;
-         margin-right: 1.5em;
          vertical-align: middle;}
+
+.actionfiltre{margin-right: 1.5em;}
 
 .actionfiltre:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
                     border-radius: 2em;
                     padding-top: 0.6em;
                     padding-bottom: 0.8em;}
-
-
-
-a:hover{box-shadow: 0.2em 0.2em 0.2em#0065FC;
-        border-radius: 2em;
-        padding-top: 0.6em;
-        padding-bottom: 0.8em;}
 
 a:link{text-decoration:none;} 
 
@@ -169,12 +158,18 @@ a:link{text-decoration:none;}
 
 
 /*---------------------->balise block 1 */
-   
+
+
 .block1interieur{ border-radius: 2em;
                   background-color: white;
                   padding: 0.5em;
-                  vertical-align: middle;
-                  margin: 2em;}
+                  vertical-align: middle;}
+
+.photoblock1{width: 14em;
+             height: 7em;
+             border-top-left-radius: 1em;
+             border-top-right-radius: 1em;
+             object-fit: cover;}
 
 .nomhebergement{ color: black;
                  font-size: 1em;
@@ -190,7 +185,13 @@ a:link{text-decoration:none;}
 .notegris{ width: 1em;
            height: auto;}
 
-.actionblock1:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.actionblock1{padding: 0.1em;
+              margin:1%}
+
+.actionblock1:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;
+                     border-radius: 2em;}
+
+.alignement{margin: 1em;}
 
 /*----------------------> fin balise balise block 1 */
 
@@ -204,10 +205,12 @@ a:link{text-decoration:none;}
                    float: right;}
 
 .block1interieur2{ border-radius: 2em;
-                background-color: white;
-                padding: 0.5em;
-                vertical-align: middle;
-        margin-top: 2em;}
+                   background-color: white;
+                   padding: 0.5em;
+                   vertical-align: middle;
+                   margin-top: 2em;}
+.block1interieur2:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
+        border-radius: 2em;}
 
 /*----------------------> fin balise balise block 2 */
 
@@ -216,13 +219,63 @@ a:link{text-decoration:none;}
 
 /*---------------------->balise block 3*/
 
+
+
+
+               
+        
 .nomhebergementblock3{color: black;
                       font-size: 1em;
                       font-weight: bold;
-                      margin-top: -2em;
-                      margin-left: 1em;}
+                      padding-left: 1em;}
+  
+.vieuxport{height: 100%;
+           width: 22%;
+           border-radius: 1em;
+           object-fit: cover;
+           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
+.vieuxport:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
 
-.actionblock3:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.fortdepomegues{height: 55%;
+                width: 22%;
+                border-radius: 1em;
+                object-fit: cover;
+                box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
+.fortdepomegues:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+
+.ilesdufrioul{height: 35%;
+              width: 22%;
+              border-radius: 1em;
+              object-fit: cover;
+              box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+              position: absolute;
+              bottom: 0em;
+              left: 26.6%;}
+.ilesdufrioul:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+
+.parcnationnaldescalanques{height: 100%;
+                           width: 22%;
+                           border-radius: 1em;
+                           object-fit: cover;
+                           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
+.parcnationnaldescalanques:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+        
+.notredamedelagarde{height: 45%;
+                    width: 22%;
+                    border-radius: 1em;
+                    object-fit: cover;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
+.notredamedelagarde:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
+.parclongchamp{height: 45%;
+               width: 22%;
+               border-radius: 1em;
+               object-fit: cover;
+               box-shadow: 0.2em 0.2em 0.3em #f2f2f2;position: absolute;
+               bottom: 0em;
+               left: 76.6%;}
+.parclongchamp:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
 
 /*----------------------> fin balise balise block 3 */
 
@@ -251,9 +304,8 @@ a:link{text-decoration:none;}
 
 
 /* Responsive design pour Desktop*/
-
-@media only screen and (max-width : 1366px)
-{}
+@media (min-width: 1270px) and (max-width: 3000px)
+{
 
 /*---------------------->head */
 .flex-container1{display: flex;
@@ -293,14 +345,9 @@ a:link{text-decoration:none;}
         margin-left: -1em;}
        
 .alignement{display: flex;
-            justify-content: space-around;
-         }
+            justify-content: space-around;}
              
-.photoblock1{width: 14em;
-             height: 7em;
-             border-top-left-radius: 1em;
-             border-top-right-radius: 1em;
-             object-fit: cover;}
+
 /*----------------------> fin balise block 1 */
 
 
@@ -326,33 +373,31 @@ a:link{text-decoration:none;}
 
 
 /*----------------------> balise block 3 */
-.photoblock3portrait{width: 18em;
-        height: 25em;
-        background-color: white;
-        padding-bottom: 2em;
-        border-radius: 1em;
-        box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
-        object-fit: cover;
-        margin-top: 2em;}
-
-
-.photoblock3paysage{width: 18em;
-        height: 10.5em;
-        background-color: white;
-        padding-bottom: 2em;
-        border-radius: 1em;
-        box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
-        object-fit: cover;
-        margin-top: 2em;}
+#troisiemeblock{position: relative;}
 
 .flex-container2{display: flex;
-                 justify-content: space-between;}
+                 flex-direction: row;
+                 flex-wrap: wrap;
+                 justify-content: space-around;
+                 width: 100%;
+                 height: 30em;
+                 padding-top: 2em;}
 
+.photoblock3portrait{width: 100%;
+        height: 90%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+        margin-bottom: 5%;}
 
-.flex-container3{display: flex;
-                 flex-direction: column;}
-
-
+.photoblock3paysage{width: 100%;
+        height: 80%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;}
 
 /*----------------------> fin balise block 3 */
 
@@ -367,11 +412,13 @@ footer{background-color:#F2F2F2;
        justify-content: space-around;
        padding-top: 3em;
        text-align: left;}
+
+.footer1{padding: 0em}
  /*----------------------> fin balise balise footer*/
 
 
 
-
+}
 
 
 
@@ -382,20 +429,24 @@ footer{background-color:#F2F2F2;
 
 /* Responsive design pour mobile*/
 
-@media only screen and(max-width : 600px)
-{
-          
-.hebergement {text-align: right;
-            margin-left: 5em;}
 
-.activites{ text-align: right;
-          margin-left: 5em;}
+@media (min-width: 300px) and (max-width: 912px)
+{       
+#hebergement {text-align: left;
+              text-decoration:none;
+              border-bottom: 3px solid #F2F2F2;
+              width: 50%;}
+ 
+#activites{ text-align: right;
+            border-top: none;
+            border-bottom: 3px solid #F2F2F2;
+            width: 50%;}
 
-.sinscire {text-align: right;
-          margin-left: 5em;
-          margin-right: 5em;}
+#sinscire {display: flex;
+        padding: 2em;
+        justify-content: flex-end;}
 
-.loupe{ width: 1em;
+#loupe{ width: 1em;
         height: 1em;
         background-color:#0065FC;
         padding: 1.1em;
@@ -403,12 +454,28 @@ footer{background-color:#F2F2F2;
         margin-left: -2em;
         vertical-align: middle;}
 
-.rechercher {display: none;}
+#rechercher {display: none;}
 
+
+
+.aligementfiltres{display: flex;
+                  flex-wrap: wrap;}
+
+.actionfiltre{margin-top: 2em;}
+
+.actionfiltre:hover{box-shadow: inherit;;
+                    border-radius: 0em;
+                    padding-top: 0em;
+                    padding-bottom: 0em;}
+
+
+
+.testeco{margin-left: -2em;}
 
 /*Block 1 à coté du block 2 */
 
-.flex-container {flex-direction: column;} 
+.flex-container {display: flex;
+                 flex-direction: column-reverse;} 
 
 
 
@@ -426,16 +493,20 @@ footer{background-color:#F2F2F2;
    
 .block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
                   width: 27em;}
-
-                
-
+                  
+.actionblock1{padding: 1em;
+              margin:2em;}
+          
+.actionblock1:hover{ box-shadow: none;
+                     border-radius: 0em;}
 /* balise block 2*/
 
-.deuxiemeblock{border-radius: 0em;
+#deuxiemeblock{border-radius: 0em;
         background-color:#F2F2F2;
         padding: 2em;
-        width: 27em;
-        margin-left: 0em;}
+        margin-right: -2em;
+        margin-left: -2em;
+        margin-bottom: 2em;}
 
 
 .photoblock2{width: 7em;
@@ -453,38 +524,306 @@ footer{background-color:#F2F2F2;
          padding: 0.5em;
          vertical-align: middle;}
 
+.block1interieur2:hover{box-shadow: none;
+                border-radius: 2em;}
+
   
 /* balise block 3*/
 
+#troisiemeblock{position:relative;
+                margin-top: 4em;
+                margin-bottom: 3em;}
+
+.flex-container2{display: flex;
+                 flex-direction: column;
+                 justify-content: space-around;
+                 width:27em;
+                 padding-top: 2em;}
+
 .photoblock3portrait{width: 27em;
                      height: 10.5em;
-                     background-color: white;
-                     padding-bottom: 2em;
-                     border-radius: 1em;
-                     box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
+                     border-top-left-radius: 1em;
+                     border-top-right-radius: 1em;
                      object-fit: cover;
-                     margin-top: 2em;}
+                     margin-bottom: 5%;}
 
 .photoblock3paysage{width: 27em;
-                    height: 10.5em;
-                    background-color: white;
-                    padding-bottom: 2em;
-                    border-radius: 1em;
-                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
-                    object-fit: cover;
-                    margin-top: 2em;}
+        height: 10.5em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        object-fit: cover;
+        margin-bottom: 5%;}
 
-.flex-container2{flex-direction: column;}
+.nomhebergementblock3{color: black;
+                      font-size: 1em;
+                      font-weight: bold;
+                      padding-left: 1em;}
+
+.vieuxport{height:100%;
+     width:100% ;
+     border-radius: 1em;
+     object-fit: cover;
+     box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+     margin-top: 2em;}
+.vieuxport:hover{ box-shadow:none;}
+
+.fortdepomegues{height: 50%;
+          width: 100%;
+          border-radius: 1em;
+          object-fit: cover;
+          box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+          margin-top: 2em;}
+.fortdepomegues:hover{ box-shadow: inherit;}
 
 
-.flex-container3{flex-direction: column;} 
+.ilesdufrioul{height: 100%;
+        width: 100%;
+        border-radius: 1em;
+        object-fit: cover;
+        box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+        margin-top: 2em;
+        position: relative;
+        left: 0%;}
+.ilesdufrioul:hover{ box-shadow: inherit;}
+
+.parcnationnaldescalanques{height: 100%;
+                           width: 100%;
+                           border-radius: 1em;
+                           object-fit: cover;
+                           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+                           margin-top: 2em;}
+.parcnationnaldescalanques:hover{ box-shadow: inherit;}
+
+  
+.notredamedelagarde{height: 100%;
+              width: 100%;
+              border-radius: 1em;
+              object-fit: cover;
+              box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+              margin-top: 2em;}
+.notredamedelagarde:hover{ box-shadow: inherit;}
+
+
+.parclongchamp{height: 100%;
+         width: 100%;
+         border-radius: 1em;
+         object-fit: cover;
+         box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+         margin-top: 2em;
+         position: relative;
+         left: 0%;}
+.parclongchamp:hover{ box-shadow: inherit;}
+
 
 
 /* balise footer*/
-footer{flex-direction: column;}
+footer{flex-direction: column;
+       background-color:#F2F2F2;
+       
+       margin-left: -2em;
+       margin-right: -2em;
+padding-left: 2em;
+padding-top: 3em;
+padding-bottom: 4em;}
+
+#footer2{margin-top: 4em;
+margin-bottom: 4em;}
+
+
 }
+
+
+
+
+
+
 
 
 /* Responsive design pour Tablette*/
 
-@media all and (max-device-width : 1024px){   }
+@media (min-width: 912px) and (max-width: 1270px)
+
+
+{
+
+        /*---------------------->section Recherche & filtre */
+#rechercher { color: white;
+        font-size: 1em;
+        font-weight: bold;
+        background-color:#0065FC;
+        padding: 1.05em;
+        border-bottom-right-radius: 1em;
+        border-top-right-radius: 1em;
+        vertical-align: middle;}
+
+#loupe{ display: none;}
+
+
+/*Block 1 à coté du block 2 */
+
+.flex-container {display: flex;
+        flex-direction: column-reverse;} 
+
+
+
+/* balise block 1 + générale */
+
+.block1{background:none;
+        width: 100%;}
+
+.photoblock1{width: 50em;
+    height: 15em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    object-fit: cover;}
+
+.alignement{ display: flex;
+             flex-direction: column;}
+
+.block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
+                  width: 50em;}
+         
+.actionblock1{padding: 1em;
+     margin:2em;}
+ 
+.actionblock1:hover{ box-shadow: none;
+                     border-radius: 0em;}
+
+
+
+
+
+ /* balise block 2*/
+
+#deuxiemeblock{border-radius: 1em;
+        background-color:#F2F2F2;
+        width: 100%;
+        padding: 2em;
+        margin-bottom: 2em;}
+
+
+.photoblock2{width: 7em;
+      height: 7em;
+      border-top-left-radius: 2em;
+      border-bottom-left-radius: 2em;
+      float: left;
+      clear: both;
+      margin-right: 2em;
+      vertical-align: middle;
+      object-fit: cover;}
+
+.block1interieur2{ border-radius: 2em;
+         background-color: white;
+         padding: 0.5em;
+         vertical-align: middle;}
+
+.block1interieur2:hover{box-shadow: none;
+                        border-radius: 2em;}
+
+
+
+                         
+/* balise block 3*/
+
+#troisiemeblock{position:relative;
+        margin-top: 4em;
+        margin-bottom: 3em;}
+
+.flex-container2{display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         width:27em;
+         padding-top: 2em;}
+
+.photoblock3portrait{width: 27em;
+             height: 10.5em;
+             border-top-left-radius: 1em;
+             border-top-right-radius: 1em;
+             object-fit: cover;
+             margin-bottom: 5%;}
+
+.photoblock3paysage{width: 27em;
+height: 10.5em;
+border-top-left-radius: 1em;
+border-top-right-radius: 1em;
+object-fit: cover;
+margin-bottom: 5%;}
+
+.nomhebergementblock3{color: black;
+              font-size: 1em;
+              font-weight: bold;
+              padding-left: 1em;}
+
+.vieuxport{height:100%;
+width:100% ;
+border-radius: 1em;
+object-fit: cover;
+box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+margin-top: 2em;}
+.vieuxport:hover{ box-shadow:none;}
+
+.fortdepomegues{height: 50%;
+  width: 100%;
+  border-radius: 1em;
+  object-fit: cover;
+  box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+  margin-top: 2em;}
+.fortdepomegues:hover{ box-shadow: inherit;}
+
+
+.ilesdufrioul{height: 100%;
+width: 100%;
+border-radius: 1em;
+object-fit: cover;
+box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+margin-top: 2em;
+position: relative;
+left: 0%;}
+.ilesdufrioul:hover{ box-shadow: inherit;}
+
+.parcnationnaldescalanques{height: 100%;
+                   width: 100%;
+                   border-radius: 1em;
+                   object-fit: cover;
+                   box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+                   margin-top: 2em;}
+.parcnationnaldescalanques:hover{ box-shadow: inherit;}
+
+
+.notredamedelagarde{height: 100%;
+      width: 100%;
+      border-radius: 1em;
+      object-fit: cover;
+      box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+      margin-top: 2em;}
+.notredamedelagarde:hover{ box-shadow: inherit;}
+
+
+.parclongchamp{height: 100%;
+ width: 100%;
+ border-radius: 1em;
+ object-fit: cover;
+ box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
+ margin-top: 2em;
+ position: relative;
+ left: 0%;}
+.parclongchamp:hover{ box-shadow: inherit;}
+
+
+
+/* balise footer*/
+footer{flex-direction: column;
+background-color:#F2F2F2;
+
+margin-left: -2em;
+margin-right: -4em;
+padding-left: 2em;
+padding-top: 3em;
+padding-bottom: 4em;}
+
+#footer2{margin-top: 4em;
+margin-bottom: 4em;}
+
+
+}
+
