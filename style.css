@@ -35,16 +35,10 @@ body{color: pink; /*Rose sert à voir les erreurs */
 #sinscire{color:#0065FC;
           font-size: 1em;
           font-weight: bold;
-          text-align: right;
-          margin-left: 5em;
-          margin-right: 3em;
-          padding: 0.5em;}
+          text-align: right;}
 
 .actionheader{margin-left: 5em;
               padding: 0.5em ;}
-
-.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
-                    border-radius: 1em;}
 
 .titregras{font-weight: bold;
            color: black;
@@ -160,7 +154,7 @@ a:link{text-decoration:none;}
 /*---------------------->balise block 1 */
 
 
-.block1interieur{ border-radius: 2em;
+.block1interieur{ border-radius: 1em;
                   background-color: white;
                   padding: 0.5em;
                   vertical-align: middle;}
@@ -185,13 +179,12 @@ a:link{text-decoration:none;}
 .notegris{ width: 1em;
            height: auto;}
 
-.actionblock1{padding: 0.1em;
-              margin:1%}
+.actionblock1{margin:1%}
 
 .actionblock1:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;
-                     border-radius: 2em;}
+                     border-radius: 1em;}
 
-.alignement{margin: 1em;}
+.alignement{margin:1em;}
 
 /*----------------------> fin balise balise block 1 */
 
@@ -204,13 +197,14 @@ a:link{text-decoration:none;}
                    height: 2em;
                    float: right;}
 
-.block1interieur2{ border-radius: 2em;
+.block1interieur2{ border-radius: 1em;
                    background-color: white;
                    padding: 0.5em;
                    vertical-align: middle;
                    margin-top: 2em;}
+
 .block1interieur2:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
-        border-radius: 2em;}
+                        }
 
 /*----------------------> fin balise balise block 2 */
 
@@ -220,9 +214,6 @@ a:link{text-decoration:none;}
 /*---------------------->balise block 3*/
 
 
-
-
-               
         
 .nomhebergementblock3{color: black;
                       font-size: 1em;
@@ -234,14 +225,14 @@ a:link{text-decoration:none;}
            border-radius: 1em;
            object-fit: cover;
            box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
-.vieuxport:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+
 
 .fortdepomegues{height: 55%;
                 width: 22%;
                 border-radius: 1em;
                 object-fit: cover;
                 box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
-.fortdepomegues:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+
 
 .ilesdufrioul{height: 35%;
               width: 22%;
@@ -251,21 +242,21 @@ a:link{text-decoration:none;}
               position: absolute;
               bottom: 0em;
               left: 26.6%;}
-.ilesdufrioul:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+ 
 
 .parcnationnaldescalanques{height: 100%;
                            width: 22%;
                            border-radius: 1em;
                            object-fit: cover;
                            box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
-.parcnationnaldescalanques:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
         
 .notredamedelagarde{height: 45%;
                     width: 22%;
                     border-radius: 1em;
                     object-fit: cover;
                     box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
-.notredamedelagarde:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
 
 .parclongchamp{height: 45%;
                width: 22%;
@@ -274,7 +265,7 @@ a:link{text-decoration:none;}
                box-shadow: 0.2em 0.2em 0.3em #f2f2f2;position: absolute;
                bottom: 0em;
                left: 76.6%;}
-.parclongchamp:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
 
 
 /*----------------------> fin balise balise block 3 */
@@ -310,6 +301,14 @@ a:link{text-decoration:none;}
 /*---------------------->head */
 .flex-container1{display: flex;
                  flex-direction: row-reverse;}
+
+
+          
+.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
+#sinscire{margin-left: 5em;
+          margin-right: 3em;
+          padding: 0.5em;}
 /*---------------------->fin balise head */
 
 
@@ -337,7 +336,7 @@ a:link{text-decoration:none;}
 
 
 /*---------------------->balise block 1 */
-#block1{border-radius: 2em;
+#block1{border-radius: 1em;
         background-color:#F2F2F2;
         padding: 2em;
         margin-bottom: 2em;
@@ -361,8 +360,8 @@ a:link{text-decoration:none;}
 
 .photoblock2{width: 7em;
         height: 7em;
-        border-top-left-radius: 2em;
-        border-bottom-left-radius: 2em;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
         float: left;
         clear: both;
         margin-right: 2em;
@@ -384,20 +383,27 @@ a:link{text-decoration:none;}
                  padding-top: 2em;}
 
 .photoblock3portrait{width: 100%;
-        height: 90%;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        object-fit: cover;
-        margin-bottom: 5%;}
+                     height: 90%;
+                     border-top-left-radius: 1em;
+                     border-top-right-radius: 1em;
+                     object-fit: cover;
+                     margin-bottom: 5%;}
 
 .photoblock3paysage{width: 100%;
-        height: 80%;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        object-fit: cover;
-        display: flex;
+                    height: 80%;
+                    border-top-left-radius: 1em;
+                    border-top-right-radius: 1em;
+                    object-fit: cover;
+             display: flex;
         flex-direction: column;
         margin-bottom: 5%;}
+
+.vieuxport:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+.fortdepomegues:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+.parcnationnaldescalanques:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.ilesdufrioul:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.notredamedelagarde:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.parclongchamp:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
 
 /*----------------------> fin balise block 3 */
 
@@ -432,19 +438,24 @@ footer{background-color:#F2F2F2;
 
 @media (min-width: 300px) and (max-width: 912px)
 {       
-#hebergement {text-align: left;
+#hebergement {display:flex;
+              justify-content: space-around;
               text-decoration:none;
-              border-bottom: 3px solid #F2F2F2;
-              width: 50%;}
+              border-bottom: 0.2em solid #0065FC;
+              width: 50%;
+              padding-bottom: 1em;}
  
-#activites{ text-align: right;
+#activites{ display:flex;
+            justify-content: space-around;
             border-top: none;
-            border-bottom: 3px solid #F2F2F2;
-            width: 50%;}
+            border-bottom: 0.2em  solid #F2F2F2;
+            width: 50%;
+            padding-bottom: 1em;}
 
 #sinscire {display: flex;
-        padding: 2em;
-        justify-content: flex-end;}
+           padding: 2em;
+           justify-content: flex-end;
+           margin-right: -3em;}
 
 #loupe{ width: 1em;
         height: 1em;
@@ -470,7 +481,7 @@ footer{background-color:#F2F2F2;
 
 
 
-.testeco{margin-left: -2em;}
+#filtres{width: 100%;}
 
 /*Block 1 à coté du block 2 */
 
@@ -565,7 +576,7 @@ footer{background-color:#F2F2F2;
      object-fit: cover;
      box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
      margin-top: 2em;}
-.vieuxport:hover{ box-shadow:none;}
+
 
 .fortdepomegues{height: 50%;
           width: 100%;
@@ -573,7 +584,7 @@ footer{background-color:#F2F2F2;
           object-fit: cover;
           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
           margin-top: 2em;}
-.fortdepomegues:hover{ box-shadow: inherit;}
+
 
 
 .ilesdufrioul{height: 100%;
@@ -584,7 +595,7 @@ footer{background-color:#F2F2F2;
         margin-top: 2em;
         position: relative;
         left: 0%;}
-.ilesdufrioul:hover{ box-shadow: inherit;}
+
 
 .parcnationnaldescalanques{height: 100%;
                            width: 100%;
@@ -592,7 +603,7 @@ footer{background-color:#F2F2F2;
                            object-fit: cover;
                            box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
                            margin-top: 2em;}
-.parcnationnaldescalanques:hover{ box-shadow: inherit;}
+
 
   
 .notredamedelagarde{height: 100%;
@@ -601,7 +612,7 @@ footer{background-color:#F2F2F2;
               object-fit: cover;
               box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
               margin-top: 2em;}
-.notredamedelagarde:hover{ box-shadow: inherit;}
+
 
 
 .parclongchamp{height: 100%;
@@ -612,7 +623,7 @@ footer{background-color:#F2F2F2;
          margin-top: 2em;
          position: relative;
          left: 0%;}
-.parclongchamp:hover{ box-shadow: inherit;}
+
 
 
 
@@ -645,6 +656,13 @@ margin-bottom: 4em;}
 
 
 {
+/*---------------------->head */
+.flex-container1{display: flex;
+        flex-direction: row-reverse;}
+
+#sinscire{margin-left: 5em;
+          padding: 0.5em;}
+/*---------------------->fin balise head */
 
         /*---------------------->section Recherche & filtre */
 #rechercher { color: white;
@@ -668,23 +686,28 @@ margin-bottom: 4em;}
 
 /* balise block 1 + générale */
 
-.block1{background:none;
-        width: 100%;}
+       
 
-.photoblock1{width: 50em;
-    height: 15em;
+.block1{background:none;
+        width: 100%;
+        display: flex;
+        justify-content: center;}
+
+.photoblock1{width: 27em;
+    height: 7em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     object-fit: cover;}
 
 .alignement{ display: flex;
-             flex-direction: column;}
+             flex-direction: column;
+             justify-content: space-around;}
 
 .block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
-                  width: 50em;}
+                  width: 27em;}
          
 .actionblock1{padding: 1em;
-     margin:2em;}
+              margin:1em;}
  
 .actionblock1:hover{ box-shadow: none;
                      border-radius: 0em;}
@@ -697,9 +720,10 @@ margin-bottom: 4em;}
 
 #deuxiemeblock{border-radius: 1em;
         background-color:#F2F2F2;
-        width: 100%;
+        width: 80%;
         padding: 2em;
-        margin-bottom: 2em;}
+        margin-bottom: 2em;
+}
 
 
 .photoblock2{width: 7em;
@@ -715,7 +739,8 @@ margin-bottom: 4em;}
 .block1interieur2{ border-radius: 2em;
          background-color: white;
          padding: 0.5em;
-         vertical-align: middle;}
+         vertical-align: middle;
+         width: 27em;}
 
 .block1interieur2:hover{box-shadow: none;
                         border-radius: 2em;}
@@ -725,15 +750,18 @@ margin-bottom: 4em;}
                          
 /* balise block 3*/
 
-#troisiemeblock{position:relative;
-        margin-top: 4em;
-        margin-bottom: 3em;}
+#troisiemeblock{display: flex;
+                justify-content: center;
+                margin-top: 4em;
+                margin-bottom: 3em;}
+
 
 .flex-container2{display: flex;
          flex-direction: column;
          justify-content: space-around;
          width:27em;
          padding-top: 2em;}
+                
 
 .photoblock3portrait{width: 27em;
              height: 10.5em;
@@ -743,16 +771,19 @@ margin-bottom: 4em;}
              margin-bottom: 5%;}
 
 .photoblock3paysage{width: 27em;
-height: 10.5em;
-border-top-left-radius: 1em;
-border-top-right-radius: 1em;
-object-fit: cover;
-margin-bottom: 5%;}
+                    height: 10.5em;
+                    border-top-left-radius: 1em;
+                    border-top-right-radius: 1em;
+                    object-fit: cover;
+                    margin-bottom: 5%;}
+
+                    
 
 .nomhebergementblock3{color: black;
               font-size: 1em;
               font-weight: bold;
               padding-left: 1em;}
+              
 
 .vieuxport{height:100%;
 width:100% ;
@@ -760,7 +791,7 @@ border-radius: 1em;
 object-fit: cover;
 box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
 margin-top: 2em;}
-.vieuxport:hover{ box-shadow:none;}
+
 
 .fortdepomegues{height: 50%;
   width: 100%;
@@ -768,8 +799,6 @@ margin-top: 2em;}
   object-fit: cover;
   box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
   margin-top: 2em;}
-.fortdepomegues:hover{ box-shadow: inherit;}
-
 
 .ilesdufrioul{height: 100%;
 width: 100%;
@@ -779,7 +808,6 @@ box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
 margin-top: 2em;
 position: relative;
 left: 0%;}
-.ilesdufrioul:hover{ box-shadow: inherit;}
 
 .parcnationnaldescalanques{height: 100%;
                    width: 100%;
@@ -787,8 +815,6 @@ left: 0%;}
                    object-fit: cover;
                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
                    margin-top: 2em;}
-.parcnationnaldescalanques:hover{ box-shadow: inherit;}
-
 
 .notredamedelagarde{height: 100%;
       width: 100%;
@@ -796,8 +822,6 @@ left: 0%;}
       object-fit: cover;
       box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
       margin-top: 2em;}
-.notredamedelagarde:hover{ box-shadow: inherit;}
-
 
 .parclongchamp{height: 100%;
  width: 100%;
@@ -807,7 +831,7 @@ left: 0%;}
  margin-top: 2em;
  position: relative;
  left: 0%;}
-.parclongchamp:hover{ box-shadow: inherit;}
+
 
 
 
