@@ -25,20 +25,16 @@ body{color: pink; /*Rose sert à voir les erreurs */
 
 #hebergement{color: #0065FC;
              font-size: 1em;
-             text-align: right;
              text-decoration: overline;}
 
 #activites{color:black;
-           font-size: 1em;
-           text-align: right;}
+           font-size: 1em;}
 
 #sinscire{color:#0065FC;
           font-size: 1em;
-          font-weight: bold;
-          text-align: right;}
+          font-weight: bold;}
 
-.actionheader{margin-left: 5em;
-              padding: 0.5em ;}
+.actionheader{                  }
 
 .titregras{font-weight: bold;
            color: black;
@@ -300,11 +296,22 @@ a:link{text-decoration:none;}
 
 /*---------------------->head */
 .flex-container1{display: flex;
-                 flex-direction: row-reverse;}
+                 flex-direction: row-reverse;
+                 }
 
-
-          
 .actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
+#activitésetherbergement{align-items: center; 
+                         text-align: right;
+                         display: flex;
+                         flex-direction: row-reverse;
+                         margin-top: -2.6em;}
+
+ #hebergement{ margin-right: 3em;}
+
+#activites{color:black;
+           font-size: 1em;
+           margin-right: 10em;}
 
 #sinscire{margin-left: 5em;
           margin-right: 3em;
@@ -437,20 +444,35 @@ footer{background-color:#F2F2F2;
 
 
 @media (min-width: 300px) and (max-width: 912px)
+
 {       
-#hebergement {display:flex;
-              justify-content: space-around;
-              text-decoration:none;
-              border-bottom: 0.2em solid #0065FC;
+#activitésetherbergement {display: flex;
+        flex-direction: row-reverse;
+                          width: 100%;}
+
+.actionheader{display: flex;
               width: 50%;
-              padding-bottom: 1em;}
+        }
+
+#hebergement {display: flex;
+              text-decoration:none;
+              border-bottom-width: 1vw;
+              border-bottom-style: solid ;
+              border-bottom-color:#0065FC;
+              padding-bottom: 1em;
+              width: 100%;
+              justify-content: center;
+              align-items: center;}
  
-#activites{ display:flex;
-            justify-content: space-around;
+#activites{ display: flex;
             border-top: none;
-            border-bottom: 0.2em  solid #F2F2F2;
-            width: 50%;
-            padding-bottom: 1em;}
+            border-bottom-width: 1vw;
+            border-bottom-style: solid ;
+            border-bottom-color: grey;
+            padding-bottom: 1em;
+            width: 100%;
+            justify-content: center;
+            align-items: center;}
 
 #sinscire {display: flex;
            padding: 2em;
@@ -543,7 +565,8 @@ footer{background-color:#F2F2F2;
 
 #troisiemeblock{position:relative;
                 margin-top: 4em;
-                margin-bottom: 3em;}
+                margin-bottom: 3em;
+                margin-left: 1em;}
 
 .flex-container2{display: flex;
                  flex-direction: column;
@@ -658,10 +681,26 @@ margin-bottom: 4em;}
 {
 /*---------------------->head */
 .flex-container1{display: flex;
-        flex-direction: row-reverse;}
+        flex-direction: row-reverse;
+        }
+
+.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
+#activitésetherbergement{align-items: center; 
+                text-align: right;
+                display: flex;
+                flex-direction: row-reverse;
+                margin-top: -2.6em;}
+
+#hebergement{ margin-right: 3em;}
+
+#activites{color:black;
+  font-size: 1em;
+  margin-right: 10em;}
 
 #sinscire{margin-left: 5em;
-          padding: 0.5em;}
+ margin-right: 3em;
+ padding: 0.5em;}
 /*---------------------->fin balise head */
 
         /*---------------------->section Recherche & filtre */
@@ -722,8 +761,7 @@ margin-bottom: 4em;}
         background-color:#F2F2F2;
         width: 80%;
         padding: 2em;
-        margin-bottom: 2em;
-}
+        margin-bottom: 2em;}
 
 
 .photoblock2{width: 7em;
@@ -757,11 +795,13 @@ margin-bottom: 4em;}
 
 
 .flex-container2{display: flex;
-         flex-direction: column;
+         flex-wrap:wrap;
+         flex-direction: row;
          justify-content: space-around;
          width:27em;
          padding-top: 2em;}
-                
+
+         flex-containertabletteblock3
 
 .photoblock3portrait{width: 27em;
              height: 10.5em;
