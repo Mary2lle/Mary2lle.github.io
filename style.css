@@ -1,70 +1,59 @@
 style.css
 
-/*Balises pour tous les formats */
 
-font-face{font-family: "Raleway-VariableFont_wght.ttf";
-          src:url(Raleway/Raleway-VariableFont_wght.ttf);}
-       
+font-face{
+    font-family: "Raleway-VariableFont_wght.ttf";
+    src:url(Raleway/Raleway-VariableFont_wght.ttf);}
+
+body{   color: pink; 
+        font-family: raleway;
+        margin-left: 2em;
+        margin-right: 2em;}
     
-body{color: pink; /*Rose sert à voir les erreurs */
-     font-family: raleway;
-     margin-left: 2em;
-     margin-right: 2em;}
+.logo{  float: left;
+        width: 8em;
+        height: auto;}
 
-.titreblock{color: black;
-        font-size: 1.5em;
-        font-weight: bold;
-        margin-left: 0.5em;}
+.flex-container1{ display: flex;
+                  flex-direction: row-reverse;}
 
-
-/*---------------------->head */
-
-#logo{float: left;
-      width: 8em;
-      height: auto;}
-
-#hebergement{color: #0065FC;
-             font-size: 1em;
-             text-decoration: overline;}
-
-#activites{color:black;
-           font-size: 1em;}
-
-#sinscire{color:#0065FC;
-          font-size: 1em;
-          font-weight: bold;}
-
-.actionheader{                  }
-
-.titregras{font-weight: bold;
-           color: black;
-           font-size: 1.5em;
-           margin-top: 3em;}
-
-.soustitre{font-style: normal;
-           color: black;
-           font-size: 1.1em;
-           margin-top: -0.7em;
-           margin-bottom: 1em;}
-
-/*---------------------->fin balise head */
+.hebergement {color: #0065FC;
+              font-size: 1em;
+              text-align: right;
+              margin-left: 5em;}
 
 
 
-/*---------------------->section Recherche & filtre */
+.activites{ color:black;
+            font-size: 1em;
+            text-align: right;
+            margin-left: 5em;}
 
-.blocrecherche{margin-top: 2em;
-               margin-bottom: 2em;}
+.sinscire { color:#0065FC;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: right;
+            margin-left: 5em;
+            margin-right: 5em;}
 
-#gpspoint{width: 1em;
-          height: auto;
-          background-color: #F2F2F2;
-          padding: 1em;
-          border-bottom-left-radius: 1em;
-          border-top-left-radius: 1em;
-          vertical-align: middle;}
-       
-#marseillefrance{ color: black;
+.titregras { font-weight: bold;
+            color: black;
+            font-size: 1.5em;}
+
+.soustitre { font-style: normal;
+             color: black;
+             font-size: 1.1em;
+             margin-top: -0.7em;}
+
+.gpspoint{ width: 1em;
+           height: auto;
+           background-color: #F2F2F2;
+           padding: 1em;
+           border-bottom-left-radius: 1em;
+           border-top-left-radius: 1em;
+           vertical-align: middle;}
+
+.marseillefrance{ color: black;
                   font-size: 1em;
                   font-weight: bold;
                   margin-left: -0.3em;
@@ -73,36 +62,50 @@ body{color: pink; /*Rose sert à voir les erreurs */
                   border-color: #F2F2F2;
                   border-left: none;
                   border-right: none;
-                  padding: 1em;
+                  padding-top: 1em;
+                  padding-bottom: 1em;
+                  padding-right: 4em;
+                  padding-left: 1em;
                   vertical-align: middle;}
 
-#filtres{ color: black;
+
+    
+.rechercher { color: white;
+              font-size: 1em;
+              font-weight: bold;
+              background-color:#0065FC;
+              padding: 1.1em;
+              border-bottom-right-radius: 1em;
+              border-top-right-radius: 1em;
+              vertical-align: middle;}
+
+.filtres{ color: black;
           font-size: 1em;
           font-weight: bold;
           margin-right: 1.5em;}
 
-#billet{ width: 1em;
+.billet{ width: 1em;
          height: 1em;
          background-color:#DEEBFF;
          padding: 0.8em;
          border-radius: 50%;
          vertical-align: middle;}
 
-#child{ width: 1em;
+.child{ width: 1em;
         height: 1em;
         background-color:#DEEBFF;
         padding: 0.8em;
         border-radius: 50%;
         vertical-align: middle;}
 
-#heart{ width: 1em;
+.heart{ width: 1em;
         height: 1em;
         background-color:#DEEBFF;
         padding: 0.8em;
         border-radius: 50%;
         vertical-align: middle;}
 
-#dog{ width: 1em;
+.dog{ width: 1em;
       height: 1em;
       background-color:#DEEBFF;
       padding: 0.8em;
@@ -120,21 +123,16 @@ body{color: pink; /*Rose sert à voir les erreurs */
          border-top-right-radius: 2em;
          border-bottom-right-radius: 2em;
          margin-left: -1.3em;
+         margin-right: 2em;
          vertical-align: middle;}
 
-.actionfiltre{margin-right: 1.5em;}
+a:hover {background-color: #F2F2F2;
+       }
+a:link { text-decoration:none;
+        } 
+a{ width: ;}
 
-.actionfiltre:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
-                    border-radius: 2em;
-                    padding-top: 0.6em;
-                    padding-bottom: 0.8em;}
-
-a:link{text-decoration:none;} 
-
-#blocinfo{margin-top: 2em;
-          margin-bottom: 2em;}
-
-#info{  width: 1em;
+.info{  width: 1em;
         height: 1em;
         border: 0.05em solid;
         border-color: #F2F2F2 ;
@@ -142,24 +140,40 @@ a:link{text-decoration:none;}
         border-radius: 50%;
         margin-right: 0.5em;
         vertical-align: middle;}
+
+
+/*Block 1 à coté du block 2 */
+
+.flex-container {display: flex; 
+                 justify-content: space-around;} 
+
+
+/* balise block 1 + générale */
+
+.block1{border-radius: 2em;
+        background-color:#F2F2F2;
+        padding: 2em;
+        width: 60%;}
+
+
+.titreblock{color: black;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 0.5em;}
         
-/*----------------------> fin balise section Recherche & filtre */
-
-
-
-/*---------------------->balise block 1 */
-
-
-.block1interieur{ border-radius: 1em;
-                  background-color: white;
-                  padding: 0.5em;
-                  vertical-align: middle;}
-
 .photoblock1{width: 14em;
              height: 7em;
              border-top-left-radius: 1em;
              border-top-right-radius: 1em;
              object-fit: cover;}
+
+.alignement{ display: flex;
+             justify-content: space-around;}
+   
+.block1interieur{ border-radius: 2em;
+                  background-color: white;
+                  padding: 0.5em;
+                  vertical-align: middle;}
 
 .nomhebergement{ color: black;
                  font-size: 1em;
@@ -175,263 +189,100 @@ a:link{text-decoration:none;}
 .notegris{ width: 1em;
            height: auto;}
 
-.actionblock1{margin:1%}
-
-.actionblock1:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;
-                     border-radius: 1em;}
-
-.alignement{margin:1em;}
-
-/*----------------------> fin balise balise block 1 */
 
 
 
 
-/*---------------------->balise block 2*/
 
-#pictotcroissance{ width: 2em;
+/* balise block 2*/
+
+.deuxiemeblock{border-radius: 2em;
+               background-color:#F2F2F2;
+               padding: 2em;
+               width: 25%;}
+
+.pictotcroissance{ width: 2em;
                    height: 2em;
                    float: right;}
 
-.block1interieur2{ border-radius: 1em;
-                   background-color: white;
-                   padding: 0.5em;
-                   vertical-align: middle;
-                   margin-top: 2em;}
+.photoblock2{width: 7em;
+             height: 7em;
+             border-top-left-radius: 2em;
+             border-bottom-left-radius: 2em;
+             float: left;
+             clear: both;
+             margin-right: 2em;
+             vertical-align: middle;
+             object-fit: cover;}
 
-.block1interieur2:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;
-                        }
-
-/*----------------------> fin balise balise block 2 */
-
-
+.block1interieur2{ border-radius: 2em;
+                background-color: white;
+                padding: 0.5em;
+                vertical-align: middle;}
 
 
-/*---------------------->balise block 3*/
 
 
-        
+
+
+/* balise block 3*/
+
+.photoblock3portrait{width: 18em;
+                    height: 25em;
+                    background-color: white;
+                    padding-bottom: 2em;
+                    border-radius: 1em;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
+                    object-fit: cover;}
+
+
+.photoblock3paysage{width: 18em;
+                    height: 10.5em;
+                    background-color: white;
+                    padding-bottom: 2em;
+                    border-radius: 1em;
+                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2 ;
+                    object-fit: cover;}
+
+
 .nomhebergementblock3{color: black;
                       font-size: 1em;
                       font-weight: bold;
-                      padding-left: 1em;}
-  
-.vieuxport{height: 100%;
-           width: 22%;
-           border-radius: 1em;
-           object-fit: cover;
-           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
+                      margin-top: -1.5em;
+                      margin-left: 1em;
+                      }
+
+.flex-container2{display: flex;
+                 justify-content: space-around;}
 
 
-.fortdepomegues{height: 55%;
-                width: 22%;
-                border-radius: 1em;
-                object-fit: cover;
-                box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
+.flex-container3{display: flex;
+                 flex-direction: column;}
 
 
-.ilesdufrioul{height: 35%;
-              width: 22%;
-              border-radius: 1em;
-              object-fit: cover;
-              box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-              position: absolute;
-              bottom: 0em;
-              left: 26.6%;}
- 
-
-.parcnationnaldescalanques{height: 100%;
-                           width: 22%;
-                           border-radius: 1em;
-                           object-fit: cover;
-                           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
-
-        
-.notredamedelagarde{height: 45%;
-                    width: 22%;
-                    border-radius: 1em;
-                    object-fit: cover;
-                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2;}
-
-
-.parclongchamp{height: 45%;
-               width: 22%;
-               border-radius: 1em;
-               object-fit: cover;
-               box-shadow: 0.2em 0.2em 0.3em #f2f2f2;position: absolute;
-               bottom: 0em;
-               left: 76.6%;}
-
-
-
-/*----------------------> fin balise balise block 3 */
 
 
 
 
 
             
-/*---------------------->  balise footer*/
+/* balise footer*/
 
-.titreblockfooter{color: black;
-                  font-size: 1.5em;
-                  font-weight: bold;}
-
-.soustitrefooter{font-style: normal;
-                 color: black;
-                 font-size: 1.1em;
-                 margin-bottom: 1em;}
-
-/*----------------------> fin balise balise footer*/
-
-
-
-
-
-
-
-/* Responsive design pour Desktop*/
-@media (min-width: 1270px) and (max-width: 3000px)
-{
-
-/*---------------------->head */
-.flex-container1{display: flex;
-                 flex-direction: row-reverse;
-                 }
-
-.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-
-#activitésetherbergement{align-items: center; 
-                         text-align: right;
-                         display: flex;
-                         flex-direction: row-reverse;
-                         margin-top: -2.6em;}
-
- #hebergement{ margin-right: 3em;}
-
-#activites{color:black;
-           font-size: 1em;
-           margin-right: 10em;}
-
-#sinscire{margin-left: 5em;
-          margin-right: 3em;
-          padding: 0.5em;}
-/*---------------------->fin balise head */
-
-
-
-/*---------------------->section Recherche & filtre */
-#rechercher { color: white;
-        font-size: 1em;
-        font-weight: bold;
-        background-color:#0065FC;
-        padding: 1.05em;
-        border-bottom-right-radius: 1em;
-        border-top-right-radius: 1em;
-        vertical-align: middle;}
-
-#loupe{ display: none;}
-/*----------------------> fin balise section Recherche & filtre */
-
-
-
-/*---------------------->Block 1 à coté du block 2 */
-.flex-container{display: flex; 
-                justify-content: space-around;} 
-/*----------------------> fin balise Block 1 à coté du block 2 */
-
-
-
-/*---------------------->balise block 1 */
-#block1{border-radius: 1em;
-        background-color:#F2F2F2;
-        padding: 2em;
-        margin-bottom: 2em;
-        width: 60%;
-        margin-left: -1em;}
-       
-.alignement{display: flex;
-            justify-content: space-around;}
-             
-
-/*----------------------> fin balise block 1 */
-
-
-
-/**---------------------->balise block 2 */
-#deuxiemeblock{border-radius: 2em;
-        background-color:#F2F2F2;
-        padding: 2em;
-        width: 25%;
-        margin-bottom: 2em;}
-
-.photoblock2{width: 7em;
-        height: 7em;
-        border-top-left-radius: 1em;
-        border-bottom-left-radius: 1em;
-        float: left;
-        clear: both;
-        margin-right: 2em;
-        vertical-align: middle;
-        object-fit: cover;}
-/*----------------------> fin balise block 2 */
-
-
-
-/*----------------------> balise block 3 */
-#troisiemeblock{position: relative;}
-
-.flex-container2{display: flex;
-                 flex-direction: row;
-                 flex-wrap: wrap;
-                 justify-content: space-around;
-                 width: 100%;
-                 height: 30em;
-                 padding-top: 2em;}
-
-.photoblock3portrait{width: 100%;
-                     height: 90%;
-                     border-top-left-radius: 1em;
-                     border-top-right-radius: 1em;
-                     object-fit: cover;
-                     margin-bottom: 5%;}
-
-.photoblock3paysage{width: 100%;
-                    height: 80%;
-                    border-top-left-radius: 1em;
-                    border-top-right-radius: 1em;
-                    object-fit: cover;
-             display: flex;
-        flex-direction: column;
-        margin-bottom: 5%;}
-
-.vieuxport:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
-.fortdepomegues:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
-.parcnationnaldescalanques:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-.ilesdufrioul:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-.notredamedelagarde:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-.parclongchamp:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-
-/*----------------------> fin balise block 3 */
-
-
-
-/*---------------------->  balise footer*/
 footer{background-color:#F2F2F2;
-       margin-top: 3em;
-       margin-left: -2em;
-       margin-right: -2em;
        display: flex;
        justify-content: space-around;
-       padding-top: 3em;
-       text-align: left;}
+       padding: 3em;}
 
-.footer1{padding: 0em}
- /*----------------------> fin balise balise footer*/
+.titreblockfooter{color: black;
+        font-size: 1.5em;
+        font-weight: bold;}
 
 
 
-}
+
+
+
+
 
 
 
@@ -442,452 +293,89 @@ footer{background-color:#F2F2F2;
 
 /* Responsive design pour mobile*/
 
-
-@media (min-width: 300px) and (max-width: 912px)
-
-{       
-#activitésetherbergement {display: flex;
-        flex-direction: row-reverse;
-                          width: 100%;}
-
-.actionheader{display: flex;
-              width: 50%;
-        }
-
-#hebergement {display: flex;
-              text-decoration:none;
-              border-bottom-width: 1vw;
-              border-bottom-style: solid ;
-              border-bottom-color:#0065FC;
-              padding-bottom: 1em;
-              width: 100%;
-              justify-content: center;
-              align-items: center;}
- 
-#activites{ display: flex;
-            border-top: none;
-            border-bottom-width: 1vw;
-            border-bottom-style: solid ;
-            border-bottom-color: grey;
-            padding-bottom: 1em;
-            width: 100%;
-            justify-content: center;
-            align-items: center;}
-
-#sinscire {display: flex;
-           padding: 2em;
-           justify-content: flex-end;
-           margin-right: -3em;}
-
-#loupe{ width: 1em;
-        height: 1em;
-        background-color:#0065FC;
-        padding: 1.1em;
-        border-radius: 1em;
-        margin-left: -2em;
-        vertical-align: middle;}
-
-#rechercher {display: none;}
+@media all and (max-device-width : 480px){
+        
+         
 
 
 
-.aligementfiltres{display: flex;
-                  flex-wrap: wrap;}
+.hebergement {text-align: right;
+            margin-left: 5em;}
 
-.actionfiltre{margin-top: 2em;}
+.activites{ text-align: right;
+          margin-left: 5em;}
 
-.actionfiltre:hover{box-shadow: inherit;;
-                    border-radius: 0em;
-                    padding-top: 0em;
-                    padding-bottom: 0em;}
+.sinscire {text-align: right;
+          margin-left: 5em;
+          margin-right: 5em;}
 
-
-
-#filtres{width: 100%;}
 
 /*Block 1 à coté du block 2 */
 
-.flex-container {display: flex;
-                 flex-direction: column-reverse;} 
+.flex-container {flex-direction: column;} 
 
 
 
 /* balise block 1 + générale */
 
-.block1{background:none;}
+.block1{background:none;
+        width: 100%;}
 
-.photoblock1{width: 27em;
-             height: 10.5em;
+
+.titreblock{color: black;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-left: 0.5em;}
+        
+.photoblock1{width: 14em;
+             height: 7em;
              border-top-left-radius: 1em;
              border-top-right-radius: 1em;
              object-fit: cover;}
 
-.alignement{ flex-direction: column;}
+.alignement{ display: flex;
+             justify-content: space-around;}
    
-.block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
-                  width: 27em;}
-                  
-.actionblock1{padding: 1em;
-              margin:2em;}
-          
-.actionblock1:hover{ box-shadow: none;
-                     border-radius: 0em;}
-/* balise block 2*/
+.block1interieur{ border-radius: 2em;
+                  background-color: white;
+                  padding: 0.5em;
+                  vertical-align: middle;}
 
-#deuxiemeblock{border-radius: 0em;
-        background-color:#F2F2F2;
-        padding: 2em;
-        margin-right: -2em;
-        margin-left: -2em;
-        margin-bottom: 2em;}
+.nomhebergement{ color: black;
+                 font-size: 1em;
+                 font-weight: bold;}
 
+.nuitapartirde{ color: black;
+                font-size: 0.7em;
+                font-weight: lighter;}
 
-.photoblock2{width: 7em;
-      height: 7em;
-      border-top-left-radius: 2em;
-      border-bottom-left-radius: 2em;
-      float: left;
-      clear: both;
-      margin-right: 2em;
-      vertical-align: middle;
-      object-fit: cover;}
+.notebleu{ width: 1em;
+           height: auto;}
 
-.block1interieur2{ border-radius: 2em;
-         background-color: white;
-         padding: 0.5em;
-         vertical-align: middle;}
-
-.block1interieur2:hover{box-shadow: none;
-                border-radius: 2em;}
+.notegris{ width: 1em;
+           height: auto;}
 
   
 /* balise block 3*/
 
-#troisiemeblock{position:relative;
-                margin-top: 4em;
-                margin-bottom: 3em;
-                margin-left: 1em;}
-
-.flex-container2{display: flex;
-                 flex-direction: column;
-                 justify-content: space-around;
-                 width:27em;
-                 padding-top: 2em;}
-
 .photoblock3portrait{width: 27em;
-                     height: 10.5em;
-                     border-top-left-radius: 1em;
-                     border-top-right-radius: 1em;
-                     object-fit: cover;
-                     margin-bottom: 5%;}
+        height: 10.5em;}
 
 .photoblock3paysage{width: 27em;
-        height: 10.5em;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        object-fit: cover;
-        margin-bottom: 5%;}
+       height: 10.5em;}
 
-.nomhebergementblock3{color: black;
-                      font-size: 1em;
-                      font-weight: bold;
-                      padding-left: 1em;}
-
-.vieuxport{height:100%;
-     width:100% ;
-     border-radius: 1em;
-     object-fit: cover;
-     box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-     margin-top: 2em;}
+.flex-container2{flex-direction: column;}
 
 
-.fortdepomegues{height: 50%;
-          width: 100%;
-          border-radius: 1em;
-          object-fit: cover;
-          box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-          margin-top: 2em;}
-
-
-
-.ilesdufrioul{height: 100%;
-        width: 100%;
-        border-radius: 1em;
-        object-fit: cover;
-        box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-        margin-top: 2em;
-        position: relative;
-        left: 0%;}
-
-
-.parcnationnaldescalanques{height: 100%;
-                           width: 100%;
-                           border-radius: 1em;
-                           object-fit: cover;
-                           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-                           margin-top: 2em;}
-
-
-  
-.notredamedelagarde{height: 100%;
-              width: 100%;
-              border-radius: 1em;
-              object-fit: cover;
-              box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-              margin-top: 2em;}
-
-
-
-.parclongchamp{height: 100%;
-         width: 100%;
-         border-radius: 1em;
-         object-fit: cover;
-         box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-         margin-top: 2em;
-         position: relative;
-         left: 0%;}
-
+.flex-container3{flex-direction: column;}
 
 
 
 /* balise footer*/
-footer{flex-direction: column;
-       background-color:#F2F2F2;
-       
-       margin-left: -2em;
-       margin-right: -2em;
-padding-left: 2em;
-padding-top: 3em;
-padding-bottom: 4em;}
-
-#footer2{margin-top: 4em;
-margin-bottom: 4em;}
-
-
+footer{flex-direction: column;}
+ 
 }
-
-
-
-
-
-
-
 
 /* Responsive design pour Tablette*/
 
-@media (min-width: 912px) and (max-width: 1270px)
-
-
-{
-/*---------------------->head */
-.flex-container1{display: flex;
-        flex-direction: row-reverse;
-        }
-
-.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-
-#activitésetherbergement{align-items: center; 
-                text-align: right;
-                display: flex;
-                flex-direction: row-reverse;
-                margin-top: -2.6em;}
-
-#hebergement{ margin-right: 3em;}
-
-#activites{color:black;
-  font-size: 1em;
-  margin-right: 10em;}
-
-#sinscire{margin-left: 5em;
- margin-right: 3em;
- padding: 0.5em;}
-/*---------------------->fin balise head */
-
-        /*---------------------->section Recherche & filtre */
-#rechercher { color: white;
-        font-size: 1em;
-        font-weight: bold;
-        background-color:#0065FC;
-        padding: 1.05em;
-        border-bottom-right-radius: 1em;
-        border-top-right-radius: 1em;
-        vertical-align: middle;}
-
-#loupe{ display: none;}
-
-
-/*Block 1 à coté du block 2 */
-
-.flex-container {display: flex;
-        flex-direction: column-reverse;} 
-
-
-
-/* balise block 1 + générale */
-
-       
-
-.block1{background:none;
-        width: 100%;
-        display: flex;
-        justify-content: center;}
-
-.photoblock1{width: 27em;
-    height: 7em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    object-fit: cover;}
-
-.alignement{ display: flex;
-             flex-direction: column;
-             justify-content: space-around;}
-
-.block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
-                  width: 27em;}
-         
-.actionblock1{padding: 1em;
-              margin:1em;}
- 
-.actionblock1:hover{ box-shadow: none;
-                     border-radius: 0em;}
-
-
-
-
-
- /* balise block 2*/
-
-#deuxiemeblock{border-radius: 1em;
-        background-color:#F2F2F2;
-        width: 80%;
-        padding: 2em;
-        margin-bottom: 2em;}
-
-
-.photoblock2{width: 7em;
-      height: 7em;
-      border-top-left-radius: 2em;
-      border-bottom-left-radius: 2em;
-      float: left;
-      clear: both;
-      margin-right: 2em;
-      vertical-align: middle;
-      object-fit: cover;}
-
-.block1interieur2{ border-radius: 2em;
-         background-color: white;
-         padding: 0.5em;
-         vertical-align: middle;
-         width: 27em;}
-
-.block1interieur2:hover{box-shadow: none;
-                        border-radius: 2em;}
-
-
-
-                         
-/* balise block 3*/
-
-#troisiemeblock{display: flex;
-                justify-content: center;
-                margin-top: 4em;
-                margin-bottom: 3em;}
-
-
-.flex-container2{display: flex;
-         flex-wrap:wrap;
-         flex-direction: row;
-         justify-content: space-around;
-         width:27em;
-         padding-top: 2em;}
-
-         flex-containertabletteblock3
-
-.photoblock3portrait{width: 27em;
-             height: 10.5em;
-             border-top-left-radius: 1em;
-             border-top-right-radius: 1em;
-             object-fit: cover;
-             margin-bottom: 5%;}
-
-.photoblock3paysage{width: 27em;
-                    height: 10.5em;
-                    border-top-left-radius: 1em;
-                    border-top-right-radius: 1em;
-                    object-fit: cover;
-                    margin-bottom: 5%;}
-
-                    
-
-.nomhebergementblock3{color: black;
-              font-size: 1em;
-              font-weight: bold;
-              padding-left: 1em;}
-              
-
-.vieuxport{height:100%;
-width:100% ;
-border-radius: 1em;
-object-fit: cover;
-box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-margin-top: 2em;}
-
-
-.fortdepomegues{height: 50%;
-  width: 100%;
-  border-radius: 1em;
-  object-fit: cover;
-  box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-  margin-top: 2em;}
-
-.ilesdufrioul{height: 100%;
-width: 100%;
-border-radius: 1em;
-object-fit: cover;
-box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-margin-top: 2em;
-position: relative;
-left: 0%;}
-
-.parcnationnaldescalanques{height: 100%;
-                   width: 100%;
-                   border-radius: 1em;
-                   object-fit: cover;
-                   box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-                   margin-top: 2em;}
-
-.notredamedelagarde{height: 100%;
-      width: 100%;
-      border-radius: 1em;
-      object-fit: cover;
-      box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-      margin-top: 2em;}
-
-.parclongchamp{height: 100%;
- width: 100%;
- border-radius: 1em;
- object-fit: cover;
- box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
- margin-top: 2em;
- position: relative;
- left: 0%;}
-
-
-
-
-/* balise footer*/
-footer{flex-direction: column;
-background-color:#F2F2F2;
-
-margin-left: -2em;
-margin-right: -4em;
-padding-left: 2em;
-padding-top: 3em;
-padding-bottom: 4em;}
-
-#footer2{margin-top: 4em;
-margin-bottom: 4em;}
-
-
-}
-
+@media all and (max-device-width : 1024px){   }
