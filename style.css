@@ -8,8 +8,7 @@ font-face{font-family: "Raleway-VariableFont_wght.ttf";
     
 body{color: pink; /*Rose sert à voir les erreurs */
      font-family: raleway;
-     margin-left: 2em;
-     margin-right: 2em;}
+     margin: auto}
 
 .titreblock{color: black;
         font-size: 1.5em;
@@ -21,12 +20,13 @@ body{color: pink; /*Rose sert à voir les erreurs */
 
 #logo{float: left;
       width: 8em;
-      height: auto;}
+      height: auto;
+      margin-left: 2em;
+      margin-right: 2em;}
 
 #hebergement{color: #0065FC;
              font-size: 1em;
-             text-decoration: overline;
-        padding-top: 2em ;}
+             text-decoration: overline;}
 
 #activites{color:black;
            font-size: 1em;}
@@ -35,18 +35,26 @@ body{color: pink; /*Rose sert à voir les erreurs */
           font-size: 1em;
           font-weight: bold;}
 
-.actionheader{                  }
+
 
 .titregras{font-weight: bold;
            color: black;
            font-size: 1.5em;
-           margin-top: 3em;}
+           margin-top: 3em;
+           margin-left: 2em;}
 
 .soustitre{font-style: normal;
            color: black;
            font-size: 1.1em;
            margin-top: -0.7em;
-           margin-bottom: 1em;}
+           margin-bottom: 1em;
+           margin-left: 2em;}
+
+.soustitre1{font-style: normal;
+                color: black;
+                font-size: 1.1em;
+                margin-top: -0.7em;
+                margin-bottom: 1em;}
 
 /*---------------------->fin balise head */
 
@@ -55,7 +63,9 @@ body{color: pink; /*Rose sert à voir les erreurs */
 /*---------------------->section Recherche & filtre */
 
 .blocrecherche{margin-top: 2em;
-               margin-bottom: 2em;}
+               margin-bottom: 2em;
+               margin-left: 2em;
+               }
 
 #gpspoint{width: 1em;
           height: auto;
@@ -80,7 +90,9 @@ body{color: pink; /*Rose sert à voir les erreurs */
 #filtres{ color: black;
           font-size: 1em;
           font-weight: bold;
-          margin-right: 1.5em;}
+          margin-right: 1.5em;
+          margin-left: 2em;
+         }
 
 #billet{ width: 1em;
          height: 1em;
@@ -142,7 +154,8 @@ a:link{text-decoration:none;}
         padding: 0.3em;
         border-radius: 50%;
         margin-right: 0.5em;
-        vertical-align: middle;}
+        vertical-align: middle;
+        margin-left: 2em;}
         
 /*----------------------> fin balise section Recherche & filtre */
 
@@ -154,7 +167,8 @@ a:link{text-decoration:none;}
 .block1interieur{ border-radius: 1em;
                   background-color: white;
                   padding: 0.5em;
-                  vertical-align: middle;}
+                  vertical-align: middle;
+                  margin-left: 2em;}
 
 .photoblock1{width: 14em;
              height: 7em;
@@ -315,7 +329,7 @@ a:link{text-decoration:none;}
            margin-right: 10em;}
 
 #sinscire{margin-left: 5em;
-          margin-right: 3em;
+          margin-right: 2em;
           padding: 0.5em;}
 /*---------------------->fin balise head */
 
@@ -338,7 +352,9 @@ a:link{text-decoration:none;}
 
 /*---------------------->Block 1 à coté du block 2 */
 .flex-container{display: flex; 
-                justify-content: space-around;} 
+                justify-content: space-around;
+                margin-left: 2em;
+                margin-right: 2em;} 
 /*----------------------> fin balise Block 1 à coté du block 2 */
 
 
@@ -380,7 +396,9 @@ a:link{text-decoration:none;}
 
 
 /*----------------------> balise block 3 */
-#troisiemeblock{position: relative;}
+#troisiemeblock{position: relative;
+        margin-left: 2em;
+        margin-right: 2em;}
 
 .flex-container2{display: flex;
                  flex-direction: row;
@@ -420,8 +438,6 @@ a:link{text-decoration:none;}
 /*---------------------->  balise footer*/
 footer{background-color:#F2F2F2;
        margin-top: 3em;
-       margin-left: -2em;
-       margin-right: -2em;
        display: flex;
        justify-content: space-around;
        padding-top: 3em;
@@ -449,9 +465,7 @@ footer{background-color:#F2F2F2;
 {       
 #activitésetherbergement {display: flex;
                           flex-direction: row-reverse;
-                          width: 100%;
-                          margin-left: -2em;
-                          margin-right: -2em;}
+                          width: 100%;}
 
 .actionheader{display: flex;
               width: 50%;}
@@ -514,6 +528,8 @@ footer{background-color:#F2F2F2;
 
 /* balise block 1 + générale */
 
+
+
 .block1{background:none;}
 
 .photoblock1{width: 27em;
@@ -537,8 +553,6 @@ footer{background-color:#F2F2F2;
 #deuxiemeblock{border-radius: 0em;
         background-color:#F2F2F2;
         padding: 2em;
-        margin-right: -2em;
-        margin-left: -2em;
         margin-bottom: 2em;}
 
 
@@ -566,7 +580,7 @@ footer{background-color:#F2F2F2;
 #troisiemeblock{position:relative;
                 margin-top: 4em;
                 margin-bottom: 3em;
-                margin-left: 1em;}
+                margin-left: 2em;}
 
 .flex-container2{display: flex;
                  flex-direction: column;
@@ -653,9 +667,6 @@ footer{background-color:#F2F2F2;
 /* balise footer*/
 footer{flex-direction: column;
        background-color:#F2F2F2;
-       
-       margin-left: -2em;
-       margin-right: -2em;
 padding-left: 2em;
 padding-top: 3em;
 padding-bottom: 4em;}
@@ -882,9 +893,6 @@ left: 0%;}
 /* balise footer*/
 footer{flex-direction: column;
 background-color:#F2F2F2;
-
-margin-left: -2em;
-margin-right: -4em;
 padding-left: 2em;
 padding-top: 3em;
 padding-bottom: 4em;}
