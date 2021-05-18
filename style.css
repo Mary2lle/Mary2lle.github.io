@@ -803,47 +803,41 @@ margin-bottom: 4em;}
                          
 /* balise block 3*/
 
-#troisiemeblock{display: flex;
-                justify-content: center;
-                margin-top: 4em;
-                margin-bottom: 3em;}
-
+#troisiemeblock{position:relative;
+        margin-top: 4em;
+        margin-bottom: 3em;
+        margin-left: 2em;}
 
 .flex-container2{display: flex;
-                 flex-wrap:wrap;
-                 flex-direction: row;
-                 justify-content: space-around;
-                 width:27em;
-                 padding-top: 2em;}
-
-         
+         flex-direction: row;
+         justify-content: space-around;
+         width:27em;
+         padding-top: 2em;
+        }
 
 .photoblock3portrait{width: 27em;
-                     height: 10.5em;
-                     border-top-left-radius: 1em;
-                     border-top-right-radius: 1em;
-                     object-fit: cover;
-                     margin-bottom: 5%;}
+             height: 10.5em;
+             border-top-left-radius: 1em;
+             border-top-right-radius: 1em;
+             object-fit: cover;
+             margin-bottom: 5%;}
 
 .photoblock3paysage{width: 27em;
-                    height: 10.5em;
-                    border-top-left-radius: 1em;
-                    border-top-right-radius: 1em;
-                    object-fit: cover;
-                    margin-bottom: 5%;}
-
-                    
+height: 10.5em;
+border-top-left-radius: 1em;
+border-top-right-radius: 1em;
+object-fit: cover;
+margin-bottom: 5%;}
 
 .nomhebergementblock3{color: black;
-                      font-size: 1em;
-                      font-weight: bold;
-                      padding-left: 1em;}
-              
+              font-size: 1em;
+              font-weight: bold;
+              padding-left: 1em;}
 
 .vieuxport{height:100%;
-           width:100% ;
-           border-radius: 1em;
-           object-fit: cover;
+width:100% ;
+border-radius: 1em;
+object-fit: cover;
 box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
 margin-top: 2em;}
 
@@ -855,6 +849,8 @@ margin-top: 2em;}
   box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
   margin-top: 2em;}
 
+
+
 .ilesdufrioul{height: 100%;
 width: 100%;
 border-radius: 1em;
@@ -864,6 +860,7 @@ margin-top: 2em;
 position: relative;
 left: 0%;}
 
+
 .parcnationnaldescalanques{height: 100%;
                    width: 100%;
                    border-radius: 1em;
@@ -871,12 +868,16 @@ left: 0%;}
                    box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
                    margin-top: 2em;}
 
+
+
 .notredamedelagarde{height: 100%;
       width: 100%;
       border-radius: 1em;
       object-fit: cover;
       box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
       margin-top: 2em;}
+
+
 
 .parclongchamp{height: 100%;
  width: 100%;
