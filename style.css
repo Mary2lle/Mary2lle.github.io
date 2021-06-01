@@ -311,10 +311,11 @@ a:link{text-decoration:none;}
 
 /*---------------------->head */
 .flex-container1{display: flex;
-                 flex-direction: row-reverse;
-                 }
+                 flex-direction: row-reverse;}
 
 .actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
+.TVHPDVDR{margin-left: 1.3em;}
 
 #activitésetherbergement{align-items: center; 
                          text-align: right;
@@ -322,7 +323,7 @@ a:link{text-decoration:none;}
                          flex-direction: row-reverse;
                          margin-top: -2.6em;}
 
- #hebergement{ margin-right: 3em;}
+#hebergement{ margin-right: 3em;}
 
 #activites{color:black;
            font-size: 1em;
@@ -331,6 +332,7 @@ a:link{text-decoration:none;}
 #sinscire{margin-left: 5em;
           margin-right: 2em;
           padding: 0.5em;}
+
 /*---------------------->fin balise head */
 
 
@@ -462,7 +464,10 @@ footer{background-color:#F2F2F2;
 
 @media (min-width: 300px) and (max-width: 650px)
 
-{       
+{     
+        
+.TVHPDVDR{margin-left: 1.3em;}
+
 #activitésetherbergement {display: flex;
                           flex-direction: row-reverse;
                           width: 100%;}
@@ -515,7 +520,12 @@ footer{background-color:#F2F2F2;
                     padding-top: 0em;
                     padding-bottom: 0em;}
 
-#filtres{width: 100%;}
+#filtres{width: 100%;
+         margin-left: 0em;}
+
+
+
+.aligementfiltres{margin-left: 2em;}
 
 
 
@@ -548,6 +558,10 @@ footer{background-color:#F2F2F2;
           
 .actionblock1:hover{ box-shadow: none;
                      border-radius: 0em;}
+
+.HAM{margin-left: 2em;}
+
+.AP{margin-left: 2em;}
 /* balise block 2*/
 
 #deuxiemeblock{border-radius: 0em;
@@ -578,242 +592,15 @@ footer{background-color:#F2F2F2;
 /* balise block 3*/
 
 #troisiemeblock{position:relative;
-                margin-top: 4em;
-                margin-bottom: 3em;
-                margin-left: 2em;}
-
-.flex-container2{display: flex;
-                 flex-direction: column;
-                 justify-content: space-around;
-                 width:27em;
-                 padding-top: 2em;}
-
-.photoblock3portrait{width: 27em;
-                     height: 10.5em;
-                     border-top-left-radius: 1em;
-                     border-top-right-radius: 1em;
-                     object-fit: cover;
-                     margin-bottom: 5%;}
-
-.photoblock3paysage{width: 27em;
-        height: 10.5em;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 1em;
-        object-fit: cover;
-        margin-bottom: 5%;}
-
-.nomhebergementblock3{color: black;
-                      font-size: 1em;
-                      font-weight: bold;
-                      padding-left: 1em;}
-
-.vieuxport{height:100%;
-     width:100% ;
-     border-radius: 1em;
-     object-fit: cover;
-     box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-     margin-top: 2em;}
-
-
-.fortdepomegues{height: 50%;
-          width: 100%;
-          border-radius: 1em;
-          object-fit: cover;
-          box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-          margin-top: 2em;}
-
-
-
-.ilesdufrioul{height: 100%;
-        width: 100%;
-        border-radius: 1em;
-        object-fit: cover;
-        box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-        margin-top: 2em;
-        position: relative;
-        left: 0%;}
-
-
-.parcnationnaldescalanques{height: 100%;
-                           width: 100%;
-                           border-radius: 1em;
-                           object-fit: cover;
-                           box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-                           margin-top: 2em;}
-
-
-  
-.notredamedelagarde{height: 100%;
-              width: 100%;
-              border-radius: 1em;
-              object-fit: cover;
-              box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-              margin-top: 2em;}
-
-
-
-.parclongchamp{height: 100%;
-         width: 100%;
-         border-radius: 1em;
-         object-fit: cover;
-         box-shadow: 0.2em 0.2em 0.3em #f2f2f2;
-         margin-top: 2em;
-         position: relative;
-         left: 0%;}
-
-
-
-
-/* balise footer*/
-footer{flex-direction: column;
-       background-color:#F2F2F2;
-padding-left: 2em;
-padding-top: 3em;
-padding-bottom: 4em;}
-
-#footer2{margin-top: 4em;
-margin-bottom: 4em;}
-
-
-}
-
-
-
-
-
-
-
-
-/* Responsive design pour Tablette*/
-
-@media (min-width: 650px) and (max-width: 1000px)
-
-
-{
-/*---------------------->head */
-.flex-container1{display: flex;
-        flex-direction: row-reverse;
-        }
-
-.actionheader:hover{box-shadow: 0.2em 0.2em 0.2em #0065FC;}
-
-#activitésetherbergement{align-items: center; 
-                text-align: right;
-                display: flex;
-                flex-direction: row-reverse;
-                margin-top: -2.6em;}
-
-#hebergement{ margin-right: 3em;}
-
-#activites{color:black;
-  font-size: 1em;
-  margin-right: 10em;}
-
-#sinscire{margin-left: 5em;
- margin-right: 3em;
- padding: 0.5em;}
-/*---------------------->fin balise head */
-
-        /*---------------------->section Recherche & filtre */
-#rechercher { color: white;
-        font-size: 1em;
-        font-weight: bold;
-        background-color:#0065FC;
-        padding: 1.05em;
-        border-bottom-right-radius: 1em;
-        border-top-right-radius: 1em;
-        vertical-align: middle;}
-
-#loupe{ display: none;}
-
-
-
-
-        /*---------------------->Block 1 à coté du block 2 */
-.flex-container{display: flex; 
-        justify-content: space-around;} 
-/*----------------------> fin balise Block 1 à coté du block 2 */
-
-
-
-/* balise block 1 + générale */
-
-       
-
-.block1{background:none;
-        width: 100%;
-        display: flex;
-        justify-content: center;}
-
-.photoblock1{width: 10em;
-    height: 5em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    object-fit: cover;}
-
-.alignement{ display: flex;
-             /* flex-direction: column;*/
-             justify-content: space-around;}
-
-        
-
-.block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
-                  width: 10em;}
-         
-.actionblock1{padding: 1em;
-              margin:1em;}
- 
-.actionblock1:hover{ box-shadow: none;
-                     border-radius: 0em;}
-
-
-
-
-
- /* balise block 2*/
-
-#deuxiemeblock{border-radius: 1em;
-        background-color:#F2F2F2;
-        width: 20em;
-        padding: 2em;
-        margin-bottom: 2em;}
-
-
-.photoblock2{width: 7em;
-      height: 7em;
-      border-top-left-radius: 2em;
-      border-bottom-left-radius: 2em;
-      float: left;
-      clear: both;
-      margin-right: 2em;
-      vertical-align: middle;
-      object-fit: cover;}
-
-.block1interieur2{ border-radius: 2em;
-         background-color: white;
-         padding: 0.5em;
-         vertical-align: middle;
-         width: 20em;}
-
-.block1interieur2:hover{box-shadow: none;
-                        border-radius: 2em;}
-
-
-
-                         
-/* balise block 3*/
-
-#troisiemeblock{position:relative;
         margin-top: 4em;
         margin-bottom: 3em;
         margin-left: 2em;}
 
 .flex-container2{display: flex;
-         flex-direction: row;
+         flex-direction: column;
          justify-content: space-around;
          width:27em;
-         padding-top: 2em;
-        }
+         padding-top: 2em;}
 
 .photoblock3portrait{width: 27em;
              height: 10.5em;
@@ -890,13 +677,185 @@ left: 0%;}
 
 
 
+/* balise footer*/
+
+footer{flex-direction: column;
+       background-color:#F2F2F2;
+       padding-left: 2em;
+       padding-top: 3em;
+       padding-bottom: 4em;}
+
+#footer2{margin-top: 4em;
+         margin-bottom: 4em;}
+
+
+}
+
+
+
+
+
+
+
+
+/* Responsive design pour Tablette*/
+
+@media (min-width: 650px) and (max-width: 1000px)
+{
+/*---------------------->head */
+
+.flex-container1{display: flex;
+        flex-direction: row-reverse;}
+
+#activitésetherbergement{align-items: center; 
+                         text-align: right;
+                         display: flex;
+                         flex-direction: row-reverse;
+                         margin-top: -2.6em;}
+
+#hebergement{ margin-right: 3em;}
+
+#activites{color:black;
+           font-size: 1em;
+           margin-right: 10em;}
+
+#sinscire{margin-left: 5em;
+          margin-right: 3em;
+          padding: 0.5em;}
+
+.TVHPDVDR{margin-left: 1.3em;}
+
+/*---------------------->fin balise head */
+
+
+
+/*---------------------->section Recherche & filtre */
+#rechercher { color: white;
+              font-size: 1em;
+              font-weight: bold;
+              background-color:#0065FC;
+              padding: 1.05em;
+              border-bottom-right-radius: 1em;
+              border-top-right-radius: 1em;
+              vertical-align: middle;}
+
+#loupe{ display: none;}
+
+
+
+/*---------------------->Block 1 à coté du block 2 */
+
+.flex-container{display: flex; 
+                justify-content: space-around;} 
+
+/*----------------------> fin balise Block 1 à coté du block 2 */
+
+
+
+/* balise block 1 + générale */
+
+.block1{background:none;
+        width: 100%;
+        display: flex;
+        justify-content: center;}
+
+.photoblock1{width: 10em;
+             height: 5em;
+             border-top-left-radius: 1em;
+             border-top-right-radius: 1em;
+             object-fit: cover;}
+
+.alignement{ display: flex;
+             justify-content: space-around;}
+
+.block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
+                  width: 10em;}
+         
+.actionblock1{padding: 1em;
+              margin:1em;}
+ 
+.actionblock1:hover{ box-shadow: none;
+                     border-radius: 0em;}
+
+
+/* balise block 2*/
+
+#deuxiemeblock{border-radius: 1em;
+               background-color:#F2F2F2;
+               width: 20em;
+               padding: 2em;
+               margin-bottom: 2em;}
+
+
+.photoblock2{width: 7em;
+             height: 7em;
+             border-top-left-radius: 2em;
+             border-bottom-left-radius: 2em;
+             float: left;
+             clear: both;
+             margin-right: 2em;
+             vertical-align: middle;
+             object-fit: cover;}
+
+.block1interieur2{border-radius: 2em;
+                  background-color: white;
+                  padding: 0.5em;
+                  vertical-align: middle;
+                  width: 20em;}
+
+.block1interieur2:hover{box-shadow: none;
+                        border-radius: 2em;}
+
+
+
+                         
+/* balise block 3*/
+
+#troisiemeblock{position: relative;
+        margin-left: 2em;
+        margin-right: 2em;}
+
+.flex-container2{display: flex;
+                 flex-direction: row;
+                 flex-wrap:wrap;
+                 justify-content: space-around;
+                 width: 100%;
+                 height: 30em;
+                 padding-top: 2em;}
+
+.photoblock3portrait{width: 100%;
+                     height: 90%;
+                     border-top-left-radius: 1em;
+                     border-top-right-radius: 1em;
+                     object-fit: cover;
+                     margin-bottom: 5%;}
+
+.photoblock3paysage{width: 100%;
+                    height: 80%;
+                    border-top-left-radius: 1em;
+                    border-top-right-radius: 1em;
+                    object-fit: cover;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 5%;}
+
+.vieuxport:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+.fortdepomegues:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;} 
+.parcnationnaldescalanques:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.ilesdufrioul:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.notredamedelagarde:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+.parclongchamp:hover{ box-shadow: 0.2em 0.2em 0.2em #0065FC;}
+
+
 
 /* balise footer*/
+
 footer{flex-direction: column;
 background-color:#F2F2F2;
 padding-left: 2em;
 padding-top: 3em;
-padding-bottom: 4em;}
+padding-bottom: 4em;
+margin-top: 2em;}
 
 #footer2{margin-top: 4em;
 margin-bottom: 4em;}
