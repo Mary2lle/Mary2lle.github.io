@@ -64,8 +64,7 @@ body{color: pink; /*Rose sert à voir les erreurs */
 
 .blocrecherche{margin-top: 2em;
                margin-bottom: 2em;
-               margin-left: 2em;
-               }
+               margin-left: 2em;}
 
 #gpspoint{width: 1em;
           height: auto;
@@ -91,7 +90,7 @@ body{color: pink; /*Rose sert à voir les erreurs */
           font-size: 1em;
           font-weight: bold;
           margin-right: 1.5em;
-          margin-left: 2em;
+          
          }
 
 #billet{ width: 1em;
@@ -147,15 +146,7 @@ a:link{text-decoration:none;}
 #blocinfo{margin-top: 2em;
           margin-bottom: 2em;}
 
-#info{  width: 1em;
-        height: 1em;
-        border: 0.05em solid;
-        border-color: #F2F2F2 ;
-        padding: 0.3em;
-        border-radius: 50%;
-        margin-right: 0.5em;
-        vertical-align: middle;
-        margin-left: 2em;}
+
         
 /*----------------------> fin balise section Recherche & filtre */
 
@@ -333,6 +324,7 @@ a:link{text-decoration:none;}
           margin-right: 2em;
           padding: 0.5em;}
 
+#filtres{ margin-left: 2em;}
 /*---------------------->fin balise head */
 
 
@@ -348,6 +340,16 @@ a:link{text-decoration:none;}
         vertical-align: middle;}
 
 #loupe{ display: none;}
+
+#info{  width: 1em;
+        height: 1em;
+        border: 0.05em solid;
+        border-color: #F2F2F2 ;
+        padding: 0.3em;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        vertical-align: middle;
+        margin-left: 2em;}
 /*----------------------> fin balise section Recherche & filtre */
 
 
@@ -513,7 +515,9 @@ footer{background-color:#F2F2F2;
 .aligementfiltres{display: flex;
                   flex-wrap: wrap;}
 
-.actionfiltre{margin-top: 2em;}
+.actionfiltre{margin-top: 2em;
+
+        display: inline-block;}
 
 .actionfiltre:hover{box-shadow: inherit;;
                     border-radius: 0em;
@@ -526,6 +530,17 @@ footer{background-color:#F2F2F2;
 
 
 .aligementfiltres{margin-left: 2em;}
+
+#blocinfo{margin-left: 2em;}
+
+#info{  width: 1em;
+        height: 1em;
+        border: 0.05em solid;
+        border-color: #F2F2F2 ;
+        padding: 0.3em;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        vertical-align: middle;}
 
 
 
@@ -540,7 +555,8 @@ footer{background-color:#F2F2F2;
 
 
 
-.block1{background:none;}
+.block1{background:none;
+        align-items: center;}
 
 .photoblock1{width: 27em;
              height: 10.5em;
@@ -548,7 +564,8 @@ footer{background-color:#F2F2F2;
              border-top-right-radius: 1em;
              object-fit: cover;}
 
-.alignement{ flex-direction: column;}
+.alignement{ flex-direction: column;
+             margin-top: -1.8em;}
    
 .block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
                   width: 27em;}
@@ -559,9 +576,11 @@ footer{background-color:#F2F2F2;
 .actionblock1:hover{ box-shadow: none;
                      border-radius: 0em;}
 
-.HAM{margin-left: 2em;}
+.HAM{margin-left: 2em;
+    padding-bottom: 2em;}
 
 .AP{margin-left: 2em;}
+
 /* balise block 2*/
 
 #deuxiemeblock{border-radius: 0em;
@@ -725,6 +744,16 @@ footer{flex-direction: column;
 
 .TVHPDVDR{margin-left: 1.3em;}
 
+#info{  width: 1em;
+        height: 1em;
+        border: 0.05em solid;
+        border-color: #F2F2F2 ;
+        padding: 0.3em;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        vertical-align: middle;
+        margin-left: 2em;}
+
 /*---------------------->fin balise head */
 
 
@@ -741,12 +770,17 @@ footer{flex-direction: column;
 
 #loupe{ display: none;}
 
+.actionfiltre{margin-top: 2em;
+              display: inline-block;}
+
+.aligementfiltres{margin-left: 2em;}
+
 
 
 /*---------------------->Block 1 à coté du block 2 */
 
 .flex-container{display: flex; 
-                justify-content: space-around;} 
+               /* justify-content: space-around;*/} 
 
 /*----------------------> fin balise Block 1 à coté du block 2 */
 
@@ -766,7 +800,7 @@ footer{flex-direction: column;
              object-fit: cover;}
 
 .alignement{ display: flex;
-             justify-content: space-around;}
+             /*justify-content: space-around;*/}
 
 .block1interieur{ box-shadow: 0.2em 0.2em 0.3em 0.2em #f2f2f2 ;
                   width: 10em;}
